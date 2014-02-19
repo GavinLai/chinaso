@@ -1,0 +1,1 @@
+document.write("<li><a href=\"\" title=\"SQEX最终幻想系列等名作年末大降价\">SQEX最终幻想系列等名作年末大降价</a></li><li><a href=\"\" title=\"超现实世界 解谜新作《梦游逃生》曝光\">超现实世界 解谜新作《梦游逃生》</a></li><li><a href=\"\" title=\"chillingo新作《给我喂石油2》即将来袭\">chillingo新作《给我喂石油2》即将</a></li><li><a href=\"\" title=\"《Year Walk》开发商Simogo发布新预告\">《Year Walk》开发商Simogo发布新</a></li>");

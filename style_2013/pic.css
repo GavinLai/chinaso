@@ -1,0 +1,42 @@
+@charset "gb2312";
+/* CSS Document */
+.content{ width:960px; margin:0 auto; border-top:1px solid #dddddd; padding-bottom:10px;}
+.content_title{ height:45px;}
+.content_l{ height:45px; padding-left:15px;font-family: "微软雅黑","宋体",serif;font-size:18px; font-weight: normal; line-height:45px; float:left;}
+.content_r{ height:45px; float:right; padding-right:7px; line-height:45px;}
+.content ul{ padding-left:15px; display:block; width:945px; padding-bottom:0px;}
+.content li{ width:172px; height:155px; float:left;margin-right:16px; display:inline;}
+.content li img{ width:171px; height:119px; border:1px solid #cbcacf;}
+.content li p{ text-align:center; line-height:20px; padding-top:3px;}
+.content li a{ color:#666}
+.content li a:hover{ color:#c00;}
+
+
+/*分页样式*/
+.epages {
+	text-align: center;width: 960px; float:left; padding-top:10px; padding-bottom:10px;
+	}
+.epages{margin:3px 0;font:11px/12px Tahoma}
+.epages *{vertical-align:middle;}
+.epages a{border:1px solid #9db3c5;text-align:center; padding:2px 8px 2px 8px;text-align:center;text-decoration:none; font-size:12px;}
+.epages a:hover{border:1px solid #CC0000;text-align:center; padding:2px 8px 2px 8px;text-decoration:none;color:#ffffff; font-size:12px;background:#C9A100;}
+.epages b{padding:2px 8px 2px 8px;text-decoration:none;color:#ffffff; font-size:12px;background:#C9A100;}
+.Total  b{padding:2px 8px 2px 8px;text-decoration:none;color:#ffffff; font-size:12px;}
+
+
+
+
+
+.bo{ border-top:1px solid #dddddd; background:#f8f8f8; height:50px; padding-top:15px;}
+
+.bq {
+    margin: 0px auto 10px auto;
+    text-align: center;
+    width: 960px; color:#666
+}
+.bq a {
+    color: #666;
+}
+.bq a:hover {
+    color: #CC0000;
+}

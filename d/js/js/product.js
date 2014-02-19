@@ -1,0 +1,1 @@
+document.write("<a href=\"[!--this.classlink--]\">[!--this.classname--]</a>");

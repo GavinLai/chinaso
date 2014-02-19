@@ -1,0 +1,1 @@
+document.write("<option value=38>|-开服表</option><option value=39>|-小游戏</option>");
