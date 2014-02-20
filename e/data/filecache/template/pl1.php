@@ -236,9 +236,9 @@ while($r=$empire->fetch($sql))
             | <a href="#">网站地图</a> | <a href="#">免责声明</a> | <a href="/e/wap/" target="_blank">WAP</a></td>
         </tr>
         <tr> 
-          <td align="center">Powered by <strong><a href="http://www.8558.com" target="_blank">8558游戏平台</a></strong> 
+          <td align="center">Powered by <strong><a href="http://www.8558.com/" target="_blank">8558游戏平台</a></strong> 
             <strong><font color="#FF9900">6.6</font></strong>&nbsp; &copy; 2002-2011 
-            <a href="http://www.digod.com" target="_blank">Beijing Donglong Inc.</a></td>
+            <a href="http://www.8558.com/" target="_blank">Beijing Donglong Inc.</a></td>
         </tr>
 	</table>
 </td>

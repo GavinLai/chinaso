@@ -69,7 +69,7 @@ if($public_r[addnews_ok])
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>帝国网站管理系统</title>
+<title>内容管理系统</title>
 <link href="adminstyle/<?=$loginadminstyleid?>/adminstyle.css" rel="stylesheet" type="text/css">
 </head>
 
@@ -77,7 +77,7 @@ if($public_r[addnews_ok])
 <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
   <tr> 
     <td><div align="center"><strong> 
-        <h3>欢迎使用帝国网站管理系统 (EmpireCMS)</h3>
+        <h3>欢迎使用国搜游戏内容管理系统</h3>
         </strong></div></td>
   </tr>
   <tr> 
@@ -118,7 +118,7 @@ if($public_r[addnews_ok])
             <table width="100%" border="0" cellspacing="0" cellpadding="0">
               <tr>
                 <td width="50%"><strong><a href="#ecms">快捷菜单</a></strong></td>
-                <td><div align="right"><a href="http://www.dotool.cn" target="_blank"><strong>站长工具</strong></a></div></td>
+                <td><div align="right"><!-- <a href="http://www.dotool.cn" target="_blank"><strong>站长工具</strong></a>  --></div></td>
               </tr>
             </table></td>
         </tr>
@@ -148,21 +148,23 @@ if($public_r[addnews_ok])
         </tr>
       </table></td>
   </tr>
+  <!-- 
   <tr> 
     <td><table width="98%" border="0" align="center" cellpadding="3" cellspacing="1">
         <tr> 
-          <td height="42"> <div align="center"><strong><font color="#0000FF" size="3">帝国网站管理系统全面开源 
+          <td height="42"> <div align="center"><strong><font color="#0000FF" size="3">国搜网站管理系统全面开源 
               － 最安全、最稳定的开源CMS系统</font></strong></div></td>
         </tr>
       </table></td>
   </tr>
+   -->
   <tr> 
     <td><table width="98%" border="0" align="center" cellpadding="3" cellspacing="1" class="tableborder">
         <tr class="header"> 
           <td height="25" colspan="2"> <table width="100%" border="0" cellspacing="0" cellpadding="0">
               <tr> 
                 <td width="50%"><a href="#"><strong>系统信息</strong></a></td>
-                <td><div align="right"><a href="http://www.phome.net/ebak2010/" target="_blank"><strong>帝国MYSQL备份王下载</strong></a></div></td>
+                <td><div align="right"><!-- <a href="http://www.phome.net/ebak2010/" target="_blank"><strong>帝国MYSQL备份王下载</strong></a> --></div></td>
               </tr>
             </table></td>
         </tr>
@@ -206,8 +208,7 @@ if($public_r[addnews_ok])
               </tr>
               <tr> 
                 <td height="23">程序版本:</td>
-                <td> <a href="http://www.phome.net" target="_blank"><strong>EmpireCMS 
-                  v<?=EmpireCMS_VERSION?> Free</strong></a> <font color="#666666">(<?=EmpireCMS_LASTTIME?>)</font></td>
+                <td><font color="#666666">(<?=EmpireCMS_LASTTIME?>)</font></td>
               </tr>
               <tr>
                 <td height="23">程序编码:</td>
@@ -268,6 +269,7 @@ if($public_r[addnews_ok])
   <tr> 
     <td>&nbsp;</td>
   </tr>
+  <!-- 
   <tr> 
     <td><table width="98%" border="0" align="center" cellpadding="3" cellspacing="1" class="tableborder">
         <tr class="header"> 
@@ -299,29 +301,31 @@ if($public_r[addnews_ok])
         </tr>
       </table></td>
   </tr>
+   -->
   <tr> 
     <td>&nbsp;</td>
   </tr>
   <tr> 
     <td><table width="98%" border="0" align="center" cellpadding="3" cellspacing="1" class="tableborder">
         <tr class="header"> 
-          <td height="25">EmpireCMS 开发团队</td>
+          <td height="25">开发团队</td>
         </tr>
         <tr> 
           <td bgcolor="#FFFFFF"><table width="80%" border="0" cellpadding="3" cellspacing="1">
               <tr bgcolor="#FFFFFF"> 
                 <td width="15%" height="25">版权所有</td>
-                <td width="85%"><a href="http://www.digod.com" target="_blank">漳州市芗城帝兴软件开发有限公司</a></td>
+                <td width="85%"><a href="http://www.8558.com/" target="_blank">北京东龙无限科技有限公司</a></td>
               </tr>
               <tr bgcolor="#FFFFFF"> 
                 <td height="25">开发与支持团队</td>
-                <td>wm_chief、amt、帝兴、小游、zeedy</td>
+                <td>Gavin, afarliu</td>
               </tr>
-              
+              <!-- 
               <tr bgcolor="#FFFFFF"> 
                 <td height="25">特别感谢</td>
                 <td>禾火木风、yingnt、hicode、sooden、老鬼、小林、天浪歌、TryLife、5starsgeneral</td>
               </tr>
+               -->
             </table></td>
         </tr>
       </table></td>

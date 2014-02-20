@@ -6,14 +6,14 @@ if(!defined('InEmpireCMS'))
 ?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
-<title>游戏图库-手机游戏门户</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>游戏美图-国搜游戏</title>
 <meta name="keywords" content="">
 <meta name="description" content="">
-<link href="/style_2013/top.css" rel="stylesheet" type="text/css" />
-<link href="/style_2013/pic_index.css" rel="stylesheet" type="text/css" />
-<link rel="stylesheet" href="/style_2013/nivo-slider.css" type="text/css" media="screen" />
-<link rel="stylesheet" href="/style_2013/styles.css" type="text/css" media="screen" />
+<link href="/skin/style_2013/css/top.css" rel="stylesheet" type="text/css" />
+<link href="/skin/style_2013/css/pic_index.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="/skin/style_2013/css/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/skin/style_2013/css/styles.css" type="text/css" media="screen" />
 <script type="text/javascript" src="/js/jquery-1.4.3.min.js"></script>
 <script type="text/javascript" src="/js/jquery.nivo.slider.pack.js"></script>
 <script type="text/javascript"> 
@@ -27,9 +27,9 @@ $('#slider').nivoSlider();
 <body>
 <div class="h">
 <div class="header">
-<div class="header_left">
+<div class="header_left"><!--
 <span><img src="/image/siji.gif" width="9" height="14" /></span>
-<a href="#">手机探索</a>
+<a href="#">手机探索</a>-->
 <span><img src="/image/gx.gif" width="12" height="14" /></span>
 <a href="/new/" id='hd' >最新更新</a>
 </div>
@@ -75,13 +75,13 @@ $bqno++;
 <a href="/"  class="xuan">首页</a>
 <?php
 $bqno=0;
-$ecms_bq_sql=sys_ReturnEcmsLoopBq('select classid,classname,classpath from [!db.pre!]enewsclass where classid in(1,2,3,4,5,6,7,38,39,45,50) and showclass=0 order by myorder',0,24,0);
+$ecms_bq_sql=sys_ReturnEcmsLoopBq('select classid,classname,classpath from [!db.pre!]enewsclass where classid in(1,2,3,4,5,6,7,50,55) and showclass=0 order by myorder',0,24,0);
 if($ecms_bq_sql){
 while($bqr=$empire->fetch($ecms_bq_sql)){
 $bqsr=sys_ReturnEcmsLoopStext($bqr);
 $bqno++;
 ?>
-<a href="<?=$public_r[newsurl]?><?=$bqr[classpath]?>"><?=$bqr[classname]?></a>
+<a href="<?=$public_r[newsurl]?><?=$bqr[classpath]?>/"><?=$bqr[classname]?></a>
 <?php
 }
 }
@@ -90,7 +90,7 @@ $bqno++;
 </div>
 <div class="menu2">
 <div class="menu2_logo"><a href="/"><img src="/image/logo2.gif" width="149" height="28" /></a></div>
-<div class="menu2_wz"<a href="/index.html">首页</a>&nbsp;>&nbsp;<a href="/photo/">游戏图库</a></div>
+<div class="menu2_wz"<a href="/index.html">首页</a>&nbsp;>&nbsp;<a href="/photo/">游戏美图</a></div>
 <div class="menu2_so">
 <form action="/e/search/index.php" method="post" >
 <input type="hidden" name="show" value="title" />

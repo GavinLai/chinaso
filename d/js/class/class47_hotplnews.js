@@ -1,1 +1,1 @@
-document.write("<li><a href=\"\" title=\"联系我们\">联系我们</a></li>");
+document.write("<li><a href=\"/a/20140220/content-56.html\" title=\"联系我们\">联系我们</a></li>");

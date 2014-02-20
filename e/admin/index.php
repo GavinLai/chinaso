@@ -35,9 +35,9 @@ elseif(getcvar('ecertkeyrnds'))
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>帝国网站管理系统 － 最安全、最稳定的开源CMS系统</title>
+<title>国搜游戏CMS － 安全、稳定的CMS系统</title>
 <link rel="stylesheet" href="loginimg/css.css" type="text/css">
-<base onmouseover="window.status='帝国网站管理系统(EmpireCMS) － 最安全、最稳定的开源CMS系统';return true">
+<base onmouseover="window.status='国搜游戏CMS － 安全、稳定的CMS系统';return true">
 <script>
 if(self!=top)
 {
@@ -114,7 +114,7 @@ function CheckLogin(obj){
               <img src="loginimg/login_r2_c3.gif" width="157" height="184"></td>
           </tr>
           <tr>
-            <td height="100%" valign="bottom"> <div align="right"><a href="../../" target="_blank"><img src="loginimg/homepage.gif" width="79" height="21" border="0"></a>&nbsp;<a href="http://bbs.phome.net" target="_blank"><img src="loginimg/empirebbs.gif" width="69" height="21" border="0"></a></div></td>
+            <td height="100%" valign="bottom"> <div align="right"><a href="../../" target="_blank"><img src="loginimg/homepage.gif" width="79" height="21" border="0"></a></div></td>
           </tr>
         </table> </td>
       <td width="65" rowspan="2" valign="top"> 
@@ -213,9 +213,9 @@ function CheckLogin(obj){
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
           <tr> 
             <td width="19%"><div align="center"></div></td>
-            <td width="73%" height="30">Powered by <a href="http://www.phome.net" target="_blank"><strong>EmpireCMS</strong></a> 
-              <font color="#FF9900"><strong>7.0</strong></font> &copy; 2002-2013 <a href="http://www.digod.com" target="_blank">EmpireSoft</a> 
-              Inc.</td>
+            <td width="73%" height="30">
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Powered by <a href="http://www.chinadonglong.com" target="_blank"><strong>北京东龙</strong></a> &copy; 2014 Inc.
+            </td>
             <td width="8%">&nbsp;</td>
           </tr>
         </table></td>

@@ -7,11 +7,11 @@ if(!defined('InEmpireCMS'))
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>帝国网站管理系统-国搜游戏</title>
-<meta name="keywords" content="帝国网站管理系统,EmpireCMS">
-<meta name="description" content="　　帝国软件是一家专注于网络软件开发的科技公司，其主营产品“帝国网站管理系统(EmpireCMS)”是目前国内应用最广泛的CMS程序。通过多年的不断创新与完善，使系统集安全、强大、稳定、灵活于一身。目前EmpireCMS程序已经广泛应用在国内数十万家网站，覆盖国内上千万上网人群，并经过上千家知名网站的严格检测，被称为国内最安全、最稳定的开源CMS系统。">
-<link href="/style_2013/top.css" rel="stylesheet" type="text/css" />
-<link href="/style_2013/index.css" rel="stylesheet" type="text/css" />
+<title>国搜游戏-国搜游戏</title>
+<meta name="keywords" content="游戏资讯,国搜游戏,中国搜索,中国搜">
+<meta name="description" content="国搜游戏是中国搜平台下的游戏频道，涉及游戏资讯，游戏平台相关推广等。">
+<link href="/skin/style_2013/css/top.css" rel="stylesheet" type="text/css" />
+<link href="/skin/style_2013/css/index.css" rel="stylesheet" type="text/css" />
 <script src="/js/jquery.js" type="text/javascript"></script>
 <script src="/js/common.js" type="text/javascript"></script>
 <script src="/js/jquery.slider.js" type="text/javascript"></script>
@@ -35,9 +35,9 @@ titleFont:{TitleFont_size:14,TitleFont_color:"#ffffff"}
 <body>
 <div class="h">
 <div class="header">
-<div class="header_left">
+<div class="header_left"><!--
 <span><img src="/image/siji.gif" width="9" height="14" /></span>
-<a href="#">手机探索</a>
+<a href="#">手机探索</a>-->
 <span><img src="/image/gx.gif" width="12" height="14" /></span>
 <a href="/new/" id='hd' >最新更新</a>
 </div>
@@ -82,13 +82,13 @@ $bqno++;
 <a href="/"  class="xuan">首页</a>
 <?php
 $bqno=0;
-$ecms_bq_sql=sys_ReturnEcmsLoopBq('select classid,classname,classpath from [!db.pre!]enewsclass where classid in(1,2,3,4,5,6,7,38,39,45,50) and showclass=0 order by myorder',0,24,0);
+$ecms_bq_sql=sys_ReturnEcmsLoopBq('select classid,classname,classpath from [!db.pre!]enewsclass where classid in(1,2,3,4,5,6,7,50,55) and showclass=0 order by myorder',0,24,0);
 if($ecms_bq_sql){
 while($bqr=$empire->fetch($ecms_bq_sql)){
 $bqsr=sys_ReturnEcmsLoopStext($bqr);
 $bqno++;
 ?>
-<a href="<?=$public_r[newsurl]?><?=$bqr[classpath]?>"><?=$bqr[classname]?></a>
+<a href="<?=$public_r[newsurl]?><?=$bqr[classpath]?>/"><?=$bqr[classname]?></a>
 <?php
 }
 }
@@ -625,7 +625,7 @@ $bqno++;
 <div class="pic">
 <div class="pic_title">
 <div class="pic_l"><a href="photo/" target="_blank">游戏图库</a></div>
-<div class="pic_r"><a href="photo/" target="_blank">更多>></a></div>
+<div class="pic_r"><a href="photo/" target="_blank">更多&gt;&gt;</a></div>
 </div>
 <ul>
 <?php

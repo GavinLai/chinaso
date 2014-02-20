@@ -52,7 +52,7 @@ document.write('<script src="/e/member/login/loginjs.php?t='+Math.random()+'"><'
 <tr valign="top">
 <td class="news_list"><table width="100%" border="0" cellspacing="0" cellpadding="0" class="position">
 <tr>
-<td>您当前的位置：<a href="/index.html">首页</a>&nbsp;>&nbsp;<a href="/shipin/">游戏视频</a></td>
+<td>您当前的位置：<a href="/index.html">首页</a>&nbsp;>&nbsp;<a href="/video/">游戏视频</a></td>
 </tr>
 </table>
 <? @sys_ForSonclassData('selfinfo',5,38,0,0,7,0,0);?></td>

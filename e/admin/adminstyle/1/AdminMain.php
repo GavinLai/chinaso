@@ -21,7 +21,7 @@ else
 <HTML>
 <HEAD>
 <META http-equiv=Content-Type content="text/html; charset=utf-8">
-<TITLE>帝国网站管理系统 － 最安全、最稳定的开源CMS系统</TITLE>
+<TITLE>国搜游戏CMS － 安全、稳定的CMS系统</TITLE>
 <LINK href="adminstyle/1/adminmain.css" rel=stylesheet>
 <STYLE>
 .flyoutLink A {
@@ -205,7 +205,7 @@ function DoOnclickMenu(m){
     <TBODY>
 	<input type="hidden" name="onclickmenu" value="">
       <TR> 
-            <TD width="180"><div align="center"><a href="main.php" target="main" title="帝国网站管理系统"><img src="adminstyle/1/images/logo.gif" border="0"></a></div></TD>
+            <TD width="180"><div align="center"><a href="main.php" target="main" title="内容管理系统"><img src="adminstyle/1/images/logo.gif" border="0"></a></div></TD>
 		<TD height="60"> 
 			<TABLE width="760" height="60" border=0 cellpadding="0" cellSpacing=0>
                 <TBODY>

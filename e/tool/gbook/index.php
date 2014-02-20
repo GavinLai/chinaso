@@ -62,8 +62,8 @@ $url="<a href='".ReturnSiteIndexUrl()."'>".$fun_r['index']."</a>&nbsp;>&nbsp;".$
 <title><?=$bname?>-国搜游戏</title>
 <meta name="keywords" content="<?=$bname?>">
 <meta name="description" content="<?=$bname?>">
-<link href="/style_2013/top.css" rel="stylesheet" type="text/css" />
-<link href="/style_2013/index.css" rel="stylesheet" type="text/css" />
+<link href="/skin/style_2013/css/top.css" rel="stylesheet" type="text/css" />
+<link href="/skin/style_2013/css/index.css" rel="stylesheet" type="text/css" />
 <script src="/js/jquery.js" type="text/javascript"></script>
 <script src="/js/common.js" type="text/javascript"></script>
 <script src="/js/jquery.slider.js" type="text/javascript"></script>
