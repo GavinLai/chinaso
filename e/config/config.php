@@ -82,8 +82,8 @@ $ecms_config['memberf']['userkey']='userkey';//用户密钥字段
 
 //后台安全设置
 $ecms_config['esafe']['loginauth']='';	//登录认证码,如果设置登录需要输入此认证码才能通过
-$ecms_config['esafe']['ecookiernd']='xuzR85sKCrWVCJAif5zuTGxF7weUDH';	//后台登录COOKIE认证码(填写10~50个任意字符，最好多种字符组合)
-$ecms_config['esafe']['ckhloginfile']=0;	//后台是否启用文件验证,0为验证,1为不验证
+$ecms_config['esafe']['ecookiernd']='CF9n25UAW4weZnkfMq4EDJaa7iSvdw4uRiZV';	//后台登录COOKIE认证码(填写10~50个任意字符，最好多种字符组合)
+$ecms_config['esafe']['ckhloginfile']=1;	//后台是否启用文件验证,0为验证,1为不验证
 $ecms_config['esafe']['ckhloginip']=0;	//后台是否验证登录IP,0为不验证,1为验证
 $ecms_config['esafe']['ckhsession']=0;	//后台是否启用SESSION验证,0为不验证,1为验证
 $ecms_config['esafe']['theloginlog']=0;	//是否记录登陆日志(0为记录,1为不记录)
@@ -93,10 +93,10 @@ $ecms_config['esafe']['ckfromurl']=0;	//是否启用来源地址验证,0为不�
 //COOKIE设置
 $ecms_config['cks']['ckdomain']='';		//cookie作用域
 $ecms_config['cks']['ckpath']='/';		//cookie作用路径
-$ecms_config['cks']['ckvarpre']='rtrrp';		//前台cookie变量前缀
-$ecms_config['cks']['ckadminvarpre']='nqdpa';		//后台cookie变量前缀
-$ecms_config['cks']['ckrnd']='gcvMRu9y4ZRVbLgqCGg3sRdgNCzQvJ';	//COOKIE验证随机码(填写10~50个任意字符，最好多种字符组合)
-$ecms_config['cks']['ckrndtwo']='zSBY7SQNScmmYzYfhWquuSKjTXxMF6';	//COOKIE验证随机码2(填写10~50个任意字符，最好多种字符组合)
+$ecms_config['cks']['ckvarpre']='ec';		//前台cookie变量前缀
+$ecms_config['cks']['ckadminvarpre']='bec';		//后台cookie变量前缀
+$ecms_config['cks']['ckrnd']='BVY6LgrmBmpnYYyfEFJ4f3VVP2vHSKdA4Tbx';	//COOKIE验证随机码(填写10~50个任意字符，最好多种字符组合)
+$ecms_config['cks']['ckrndtwo']='wc6PFryUArvk7WVzFpSrVMuXnk8zuHXK3raQ';	//COOKIE验证随机码2(填写10~50个任意字符，最好多种字符组合)
 
 //网站防火墙配置
 $ecms_config['fw']['eopen']=0;	//开启防火墙(0为关闭,1为开启)
@@ -237,7 +237,7 @@ $public_r=array('sitename'=>'国搜游戏',
 'gbkey_ok'=>0,
 'fbkey_ok'=>0,
 'newaddinfotime'=>0,
-'classnavs'=>'<a href=\"/rxfw/\">开服表</a>&nbsp;|&nbsp;<a href=\"/fwjg/\">小游戏</a>&nbsp;|&nbsp;<a href=\"/fwlc/\">玩家乐园</a>&nbsp;|&nbsp;<a href=\"/contact/\">联系我们</a>&nbsp;|&nbsp;<a href=\"/zixun/\">游戏资讯</a>&nbsp;|&nbsp;<a href=\"/pingce/\">游戏评测</a>&nbsp;|&nbsp;<a href=\"/jingji/\">电子竞技</a>&nbsp;|&nbsp;<a href=\"/bagua/\">八卦周边</a>&nbsp;|&nbsp;<a href=\"/hangye/\">行业信息</a>&nbsp;|&nbsp;<a href=\"/photo/\">游戏美图</a>&nbsp;|&nbsp;<a href=\"/video/\">游戏视频</a>&nbsp;|&nbsp;<a href=\"/zt/\">专题报道</a>&nbsp;|&nbsp;<a href=\"/games/\">游戏中心</a>',
+'classnavs'=>'<a href=\"/rxfw/\">开服表</a>&nbsp;|&nbsp;<a href=\"/fwjg/\">小游戏</a>&nbsp;|&nbsp;<a href=\"/contact/\">联系我们</a>&nbsp;|&nbsp;<a href=\"/zixun/\">游戏资讯</a>&nbsp;|&nbsp;<a href=\"/pingce/\">游戏评测</a>&nbsp;|&nbsp;<a href=\"/jingji/\">电子竞技</a>&nbsp;|&nbsp;<a href=\"/bagua/\">八卦周边</a>&nbsp;|&nbsp;<a href=\"/hangye/\">行业信息</a>&nbsp;|&nbsp;<a href=\"/photo/\">游戏美图</a>&nbsp;|&nbsp;<a href=\"/video/\">游戏视频</a>&nbsp;|&nbsp;<a href=\"/zt/\">专题报道</a>&nbsp;|&nbsp;<a href=\"/games/\">游戏中心</a>&nbsp;|&nbsp;<a href=\"/players/\">玩家乐园</a>',
 'adminstyle'=>',1,2,',
 'docnewsnum'=>300,
 'openschall'=>0,
