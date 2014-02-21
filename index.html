@@ -7,45 +7,28 @@
 <meta name="description" content="国搜游戏是中国搜平台下的游戏频道，涉及游戏资讯，游戏平台相关推广等。">
 <link href="/skin/style_2013/css/top.css" rel="stylesheet" type="text/css" />
 <link href="/skin/style_2013/css/index.css" rel="stylesheet" type="text/css" />
-<script src="/js/jquery.js" type="text/javascript"></script>
-<script src="/js/common.js" type="text/javascript"></script>
-<script src="/js/jquery.slider.js" type="text/javascript"></script>
-<script src="/js/jquery-1.4a2.min.js" type="text/javascript"></script>
-<script src="/js/jquery.KinSlideshow-1.2.1.min.js" type="text/javascript"></script>
-
 <link rel="shortcut icon" href="/favicon.ico" />
 <link rel="bookmark" href="/favicon.ico" type="image/x-icon"  />
 <link rel="icon" href="/favicon.ico" type="image/x-icon"  />
-<script type="text/javascript"> 
-$(function(){
-$("#foccous").KinSlideshow({
-moveStyle:"down",
-intervalTime:5,
-mouseEvent:"mouseover",
-titleFont:{TitleFont_size:14,TitleFont_color:"#ffffff"}
-});
-})
-</script>
+<script src="/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="/js/hijack.js" type="text/javascript"></script>
+
 </head>
 <body>
 <div class="h">
 <div class="header">
-<div class="header_left"><!--
-<span><img src="/image/siji.gif" width="9" height="14" /></span>
-<a href="#">手机探索</a>-->
-<span><img src="/image/gx.gif" width="12" height="14" /></span>
-<a href="/new/" id='hd' >最新更新</a>
-</div>
+<div class="header_left"></div>
 <div class="header_right"><a href="javascript:void(0);" onclick="SetHome(this)">设为首页</a> <a href="javascript:void(0);" onclick="addfavorite()">加入收藏</a></div>
  
 </div>
 <div class="top">
 <div class="logo"><a href="/"><img src="/image/logo.gif" width="250" height="38" /></a></div>
 <div class="tde">
+<!--
 <div class="tde_fxd">分享到：</div>
 <div class="tde_weibo"><a href="javascript:void((function(s,d,e){try{}catch(e){}var f='http://v.t.sina.com.cn/share/share.php?',u=d.location.href,title=d.title,p=['url=',e(u),'&title=',e(title),'&appkey=1449381461'].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=620,height=450,left=',(s.width-620)/2,',top=',(s.height-450)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent)){setTimeout(a,0)}else{a()}})(screen,document,encodeURIComponent));"><img src="/image/xina.gif" width="24" height="24" /></a></div>
 <div class="tde_weibo"><a href="javascript:void((function(s,d,e){if(/renren.com/.test(d.location))return;var f='http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=',u=d.location,l=d.title,p=[e(u),e(l)].join('');function a(){if(!window.open([f,p].join(''),'xnshare',['toolbar=0,status=0,resizable=1,width=626,height=436,left=',(s.width-626)/2,',top=',(s.height-436)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else a();})(screen,document,encodeURIComponent));"><img src="/image/kj.gif" width="24" height="24" /></a></div>
-
+-->
 <div class="so">
 <form action="/e/search/index.php" method="post" >
 <input type="hidden" name="show" value="title" />
@@ -57,20 +40,21 @@ titleFont:{TitleFont_size:14,TitleFont_color:"#ffffff"}
 </form>
 </div>
 <div class="denlu" id='menu_login'>
+<a href="/e/search/result/?searchid=1">游戏</a>
 </div>
 </div>
 </div>
 <div class="menu">
-<a href="/"  class="xuan">首页</a>
-<a href="/zixun/">游戏资讯</a>
-<a href="/pingce/">游戏评测</a>
-<a href="/jingji/">电子竞技</a>
-<a href="/bagua/">八卦周边</a>
-<a href="/hangye/">行业信息</a>
-<a href="/photo/">游戏美图</a>
-<a href="/video/">游戏视频</a>
-<a href="/zt/">专题报道</a>
-<a href="/games/">游戏中心</a>
+<a href="/"  rel="home">首页</a>
+<a href="/zixun/" rel="zixun">游戏资讯</a>
+<a href="/pingce/" rel="pingce">游戏评测</a>
+<a href="/jingji/" rel="jingji">电子竞技</a>
+<a href="/bagua/" rel="bagua">八卦周边</a>
+<a href="/hangye/" rel="hangye">行业信息</a>
+<a href="/photo/" rel="photo">游戏美图</a>
+<a href="/video/" rel="video">游戏视频</a>
+<a href="/zt/" rel="zt">专题报道</a>
+<a href="/games/" rel="games">游戏中心</a>
  
 
 </div>
@@ -80,40 +64,28 @@ titleFont:{TitleFont_size:14,TitleFont_color:"#ffffff"}
 <img src="/img/ad01.jpg" width="960" height="90" />
 </div>
 <div class="banner">
+
 <div class="ba_left">
-<h1><a href="/a/20140220/content-1001.html" target="_blank">实拍韩国飞机表演队空中画出太极</a></h1>
+
+<h1><a href="/a/20140220/content-1001.html" target="_blank">实拍韩国飞机表演队空中画出太极图案</a></h1>
  
 <div class="xbt">
 <ul>
-<li><a href="/a/20140220/content-1001.html" target="_blank">实拍韩国飞机表演队空中画出太极</a></li>
-<li><a href="/a/20140220/content-1000.html" target="_blank">从零开始，到建立名字。。。</a></li>
-<li><a href="/a/20140220/content-89.html" target="_blank">《诗歌召唤者》续作 《诗歌召唤</a></li>
-<li><a href="/a/20140220/content-91.html" target="_blank">更偏重跑酷 《车手乔伊无限》年</a></li>
- 
+<li><a href="/a/20140220/content-89.html" target="_blank">《诗歌召唤者》续作 《诗歌召唤者：枪魂》</a></li>
 <div style="clear:both;"></div>
 </ul>
 </div>
-<h1><a href="/a/20140220/content-144.html" target="_blank">方放出了Gloops与Square Enix联</a></h1>
+<h1><a href="/a/20140220/content-96.html" target="_blank">SQEX最终幻想系列等名作年末大降价</a></h1>
  
 <div class="xbt">
 <ul>
-<li><a href="/a/20140220/content-144.html" target="_blank">方放出了Gloops与Square Enix联</a></li>
-<li><a href="/a/20140220/content-143.html" target="_blank">开创了《生死格斗》和《忍者龙剑</a></li>
- 
- 
+<li><a href="/a/20140220/content-95.html" target="_blank">超现实世界 解谜新作《梦游逃生》曝光</a></li>
+<li><a href="/a/20140220/content-94.html" target="_blank">chillingo新作《给我喂石油2》即将来袭</a></li>
+<li><a href="/a/20140220/content-97.html" target="_blank">《Year Walk》开发商Simogo发布新预告</a></li>
 <div style="clear:both;"></div>
 </ul>
 </div>
-<h1><a href="/a/20140220/content-167.html" target="_blank">活跃在日本手机用户的战术类RPG</a></h1>
- 
-<div class="xbt">
-<ul>
-<li><a href="/a/20140220/content-167.html" target="_blank">活跃在日本手机用户的战术类RPG</a></li>
-<li><a href="/a/20140220/content-168.html" target="_blank">《古代女神与宝石射手》</a></li>
- 
-<div style="clear:both;"></div>
-</ul>
-</div>
+
 </div>
  
  
@@ -131,86 +103,101 @@ titleFont:{TitleFont_size:14,TitleFont_color:"#ffffff"}
 <div class="left">
 <div class="cn">
 <div class="cn_left">
-<h1><a href="/a/20140220/content-179.html" target="_blank">上爱拍原创  潮人部落等你加入</a></h1>
- 
+<div class="cn_left_tit"><a href="/zixun/china/" target="_blank">更多&gt;&gt;</a><img src="/image/t_newschina.jpg" alt="国内新闻" /></div>
 <ul>
-<li><a href="/a/20140220/content-179.html" target="_blank">上爱拍原创  潮人部落等你加入</a></li>
-<li><a href="/a/20140220/content-180.html" target="_blank">“JUMPFESTA”超燃开幕 各大游戏巨头齐齐亮相</a></li>
-<li><a href="/a/20140220/content-181.html" target="_blank">《圣魔激战》新年活动开启</a></li>
-<li><a href="/a/20140220/content-182.html" target="_blank">《新世界福音战士魂之净化》即将登陆手机游戏</a></li>
-<li><a href="/a/20140220/content-183.html" target="_blank">形象大变身《王国征服2》与《布偶人Z》合作内容公</a></li>
-<li><a href="/a/20140220/content-184.html" target="_blank">快来《手游伴侣》领《西游降魔篇》的礼包</a></li>
+<li><a href="/a/20140220/content-1000.html" target="_blank">从零开始，到建立名字。。。</a></li>
+<li><a href="/a/20140220/content-89.html" target="_blank">《诗歌召唤者》续作 《诗歌召唤者：枪魂》</a></li>
+<li><a href="/a/20140220/content-91.html" target="_blank">更偏重跑酷 《车手乔伊无限》年后推出</a></li>
+<li><a href="/a/20140220/content-90.html" target="_blank">融合多元素 SE新作《枪炮与灵魂》将发布</a></li>
+<li><a href="/a/20140220/content-92.html" target="_blank">人气移植游戏《绝技飞车手》即将推出续作</a></li>
+<li><a href="/a/20140220/content-96.html" target="_blank">SQEX最终幻想系列等名作年末大降价</a></li>
 </ul>
-<h1><a href="/a/20140220/content-130.html" target="_blank"> 人气畅销游戏《怪物猎人大狩猎</a></h1>
- 
+<div class="cn_left_tit"><a href="/zixun/world/" target="_blank">更多&gt;&gt;</a><img src="/image/t_newsworld.jpg" alt="国际新闻" /></div>
 <ul>
-<li><a href="/a/20140220/content-130.html" target="_blank"> 人气畅销游戏《怪物猎人大狩猎任务》</a></li>
-<li><a href="/a/20140220/content-131.html" target="_blank">由游戏橘子所自制研发的《Core Blaze》</a></li>
-<li><a href="/a/20140220/content-132.html" target="_blank">Aiming预计将于2014年推出的正统RPG游戏</a></li>
-<li><a href="/a/20140220/content-133.html" target="_blank">日本游戏公司CAPCOM日前公开了新作《龙战士6》</a></li>
-<li><a href="/a/20140220/content-134.html" target="_blank">死亡之屋限免下载 由世嘉出品恐怖射击游戏《死亡</a></li>
-<li><a href="/a/20140220/content-135.html" target="_blank">《手游伴侣》发放1314新年礼包啦</a></li>
+<li><a href="/a/20140220/content-1001.html" target="_blank">实拍韩国飞机表演队空中画出太极图案</a></li>
+<li><a href="/a/20140220/content-173.html" target="_blank">《手游伴侣》即将为各位玩家带来首发《天天富翁》</a></li>
+<li><a href="/a/20140220/content-174.html" target="_blank">日本Vector公司推出的最新卡牌RPG游戏《口袋女神</a></li>
+<li><a href="/a/20140220/content-175.html" target="_blank">机巧少女不会受伤》在登陆以后就吸引了一大批粉丝</a></li>
+<li><a href="/a/20140220/content-176.html" target="_blank">韩国顶级团队倾力打造的《你好英雄》</a></li>
+<li><a href="/a/20140220/content-177.html" target="_blank">玩具大进军》，这是一款非常有爱的卡牌塔防游戏</a></li>
 </ul>
-<h1><a href="/a/20140220/content-136.html" target="_blank">《Cytus》是一款iOS/Android/PSM</a></h1>
- 
+<div class="cn_left_tit"><a href="/pingce/" target="_blank">更多&gt;&gt;</a><img src="/image/t_gametest.jpg" alt="游戏评测" /></div>
 <ul>
-<li><a href="/a/20140220/content-136.html" target="_blank">《Cytus》是一款iOS/Android/PSM音乐游戏</a></li>
-<li><a href="/a/20140220/content-137.html" target="_blank">我们曾报道过一款由《真实滑板》</a></li>
-<li><a href="/a/20140220/content-138.html" target="_blank">说到奇葩游戏公司，就不得不说到Riverman，可以说该游</a></li>
-<li><a href="/a/20140220/content-139.html" target="_blank">《怪兽战斗》是一款由KONAMI公司制作的一款结合</a></li>
-<li><a href="/a/20140220/content-140.html" target="_blank"> 说到《十万个冷笑话》，相信人人得知</a></li>
-<li><a href="/a/20140220/content-141.html" target="_blank">Angel Beats提前预约登记 各位绅士们好消息</a></li>
+<li><a href="/a/20140220/content-143.html" target="_blank">开创了《生死格斗》和《忍者龙剑传》系列的传奇制</a></li>
+<li><a href="/a/20140220/content-144.html" target="_blank">方放出了Gloops与Square Enix联手推出新游戏的宣</a></li>
+<li><a href="/a/20140220/content-145.html" target="_blank">星米互动手游新作《时空之刃》</a></li>
+<li><a href="/a/20140220/content-146.html" target="_blank">飙速宅男》是日本漫画家创作的以自行车竞速为</a></li>
+<li><a href="/a/20140220/content-147.html" target="_blank">经典打飞机的升级版《全民飞机大战》</a></li>
+<li><a href="/a/20140220/content-148.html" target="_blank"> 波兰开发商 Infinite Dreams 旗下作品《傲气雄鹰</a></li>
 </ul>
 </div>
+
 <div class="cn_right">
 <div class="cn_rtop"></div>
 <div class="cn_rtit">
-<div class="cnr_l">开服表</div>
-<div class="cnr_right"><a href="rxfw/" target="_blank">更多>></a></div>
+<div class="cnr_l">行业新闻</div>
+<div class="cnr_right"><a href="/hangye/news/" target="_blank">更多&gt;&gt;</a></div>
 </div>
 <div class="tyue" style="border-bottom:none;">
-
+<dl>
+<dt><b><a href="/a/20140220/content-159.html" target="_blank">暗影之刃》最吸引人的</a></b></dt>
+<span>
+<dd><a href="/a/20140220/content-159.html" target="_blank"><img src="/img/y01.jpg" width="90" height="65" /></a></dd></span>
+<dd><a href="/a/20140220/content-159.html" target="_blank">	          Shadow Blade《暗影之刃》最吸引人的，是<span>[详细]</span></a></dd>
+</dl>
 <ul>
+<li><a  href="/a/20140220/content-159.html" target="_blank">暗影之刃》最吸引人的</a></li>
+<li><a  href="/a/20140220/content-160.html" target="_blank">日本厂商开普空就宣布旗下RPG《</a></li>
+<li><a  href="/a/20140220/content-161.html" target="_blank">近日韩国游戏开发商Com2uS宣布将</a></li>
 </ul>
 </div>
 <div class="cn_rtop"></div>
 <div class="cn_rtit">
-<div class="cnr_l">小游戏</div>
-<div class="cnr_right"><a href="fwjg/" target="_blank">更多>></a></div>
+<div class="cnr_l">电子竞技</div>
+<div class="cnr_right"><a href="/jingji/" target="_blank">更多&gt;&gt;</a></div>
 </div>
 <div class="tyue" style="border-bottom:none;">
+<dl>
+<dt><b><a href="/a/20140220/content-167.html" target="_blank">活跃在日本手机用户的战术类RPG</a></b></dt>
+<span>
+<dd><a href="/a/20140220/content-167.html" target="_blank"><img src="/img/z04.jpg" width="90" height="65" /></a></dd></span>
+<dd><a href="/a/20140220/content-167.html" target="_blank">	          活跃在日本手机用户的战术类RPG游戏《<span>[详细]</span></a></dd>
+</dl>
 <ul>
+<li><a  href="/a/20140220/content-167.html" target="_blank">活跃在日本手机用户的战术类RPG</a></li>
+<li><a  href="/a/20140220/content-168.html" target="_blank">《古代女神与宝石射手》</a></li>
+<li><a  href="/a/20140220/content-169.html" target="_blank">一家芬兰的独立工作室最近公布了</a></li>
 </ul>
 </div>
  
 <div class="cn_rtop"></div>
 <div class="cn_rtit">
-<div class="cnr_l">玩家论坛</div>
-<div class="cnr_right"><a href="fwlc/" target="_blank">更多>></a></div>
+<div class="cnr_l">八卦周边</div>
+<div class="cnr_right"><a href="/bagua/" target="_blank">更多&gt;&gt;</a></div>
 </div>
 <div class="tyue" style="border-bottom:none;">
 <dl>
-<dt><b><a href="/a/20140220/content-123.html" target="_blank">人气大作《侠盗猎车手圣安地列斯</a></b></dt>
+<dt><b><a href="/a/20140220/content-179.html" target="_blank">上爱拍原创  潮人部落等你加入</a></b></dt>
 <span>
-<dd><a href="/a/20140220/content-123.html" target="_blank"><img src="/img/p03.jpg" width="90" height="65" /></a></dd></span>
-<dd><a href="/a/20140220/content-123.html" target="_blank">	          Rockstar的人气手机游戏大作《侠盗猎车<span>[详细]</span></a></dd>
+<dd><a href="/a/20140220/content-179.html" target="_blank"><img src="/img/tt01.jpg" width="90" height="65" /></a></dd></span>
+<dd><a href="/a/20140220/content-179.html" target="_blank">	          全城拍照达人的聚集地,年轻人的原创娱<span>[详细]</span></a></dd>
 </dl>
 <ul>
-<li><a  href="/a/20140220/content-123.html" target="_blank">人气大作《侠盗猎车手圣安地列斯</a></li>
-<li><a  href="/a/20140220/content-124.html" target="_blank">《JOJO的奇妙冒险星尘射手》宣传</a></li>
-<li><a  href="/a/20140220/content-125.html" target="_blank">上《手游伴侣》 马上有礼包</a></li>
+<li><a  href="/a/20140220/content-179.html" target="_blank">上爱拍原创  潮人部落等你加入</a></li>
+<li><a  href="/a/20140220/content-180.html" target="_blank">“JUMPFESTA”超燃开幕 各大游戏</a></li>
+<li><a  href="/a/20140220/content-181.html" target="_blank">《圣魔激战》新年活动开启</a></li>
 </ul>
 </div>
 </div>
 </div>
  
 <div class="cntu">
-<div class="cntu_titile">游戏热图</div>
+<div class="cntu_titile">人物访谈</div>
 <ul>
-<li><a href="/a/20140220/content-192.html" target="_blank"><img src="/img/p18.jpg"/><p>严冬里的父子温情 《L</p></a></li>
-<li><a href="/a/20140220/content-111.html" target="_blank"><img src="/img/p16.jpg"/><p>“JUMPFESTA”超燃开</p></a></li>
-<li><a href="/a/20140220/content-214.html" target="_blank"><img src="/img/p19.jpg"/><p>严冬里的父子温情 《L</p></a></li>
-<li><a href="/a/20140220/content-215.html" target="_blank"><img src="/img/p20.jpg"/><p>“JUMPFESTA”超燃开</p></a></li>
+<li><a href="/a/20140220/content-130.html" target="_blank"><img src="/img/r01.jpg"/><p> 人气畅销游戏《怪物</p></a></li>
+<li><a href="/a/20140220/content-131.html" target="_blank"><img src="/img/r02.jpg"/><p>由游戏橘子所自制研发</p></a></li>
+<li><a href="/a/20140220/content-132.html" target="_blank"><img src="/img/r03.jpg"/><p>Aiming预计将于2014年</p></a></li>
+<li><a href="/a/20140220/content-133.html" target="_blank"><img src="/img/r04.jpg"/><p>日本游戏公司CAPCOM日</p></a></li>
  
 </ul>
 </div>
@@ -219,20 +206,20 @@ titleFont:{TitleFont_size:14,TitleFont_color:"#ffffff"}
 <div class="zhuanlan">
 <div class="zhuanlan_t">
 <ul>
-<li id="one1" onmouseover="setTab('one',1,2)"class="hover" style="border-left:none;">UFO目击报告</li>
-<li id="one2" onmouseover="setTab('one',2,2)" style="border-right:none;">游戏专题</li>
+<li id="one1" onmouseover="setTab('one',1,2)"class="hover" style="border-left:none;">免费礼包</li>
+<li id="one2" onmouseover="setTab('one',2,2)" style="border-right:none;">专题报道</li>
 </ul>
 </div>
 <div id="con_one_1" class="hover">
 <div class="zlcn">
-<p><a><img src="/img/tt01.jpg" width="286" height="70" border=0/></a></p>
+<p><a href="/a/20140220/content-123.html" target="_blank"><img src="/img/p03.jpg" width="286" height="70" border=0/></a></p>
 <ul>
-<li><a href="/a/20140220/content-179.html" target="_blank">上爱拍原创  潮人部落</a></li>
-<li><a href="/a/20140220/content-180.html" target="_blank">“JUMPFESTA”超燃开</a></li>
-<li><a href="/a/20140220/content-181.html" target="_blank">《圣魔激战》新年活动</a></li>
-<li><a href="/a/20140220/content-182.html" target="_blank">《新世界福音战士魂之</a></li>
-<li><a href="/a/20140220/content-183.html" target="_blank">形象大变身《王国征服</a></li>
-<li><a href="/a/20140220/content-184.html" target="_blank">快来《手游伴侣》领《</a></li>
+<li><a href="/a/20140220/content-123.html" target="_blank">人气大作《侠盗猎车手</a></li>
+<li><a href="/a/20140220/content-124.html" target="_blank">《JOJO的奇妙冒险星尘</a></li>
+<li><a href="/a/20140220/content-125.html" target="_blank">上《手游伴侣》 马上</a></li>
+<li><a href="/a/20140220/content-126.html" target="_blank">神秘新作《进击的巨人</a></li>
+<li><a href="/a/20140220/content-127.html" target="_blank">像素风格新游《100回</a></li>
+<li><a href="/a/20140220/content-128.html" target="_blank">蜗牛经典战旗游戏续作</a></li>
  
 </ul>
 </div>
@@ -240,7 +227,7 @@ titleFont:{TitleFont_size:14,TitleFont_color:"#ffffff"}
  
 <div id="con_one_2" style="display:none">
 <div class="zlcn">
-<p><a><img src="/img/tt02.jpg" width="286" height="70" border=0/></a></p>
+<p><a href="/a/20140220/content-185.html" target="_blank"><img src="/img/tt02.jpg" width="286" height="70" border=0/></a></p>
 <ul>
 <li><a href="/a/20140220/content-185.html" target="_blank">《100TURN勇者》登陆</a></li>
 <li><a href="/a/20140220/content-186.html" target="_blank">世嘉年末感谢祭 游戏</a></li>
@@ -350,13 +337,39 @@ titleFont:{TitleFont_size:14,TitleFont_color:"#ffffff"}
  
 </ul>
 </div>
+<div class="pic">
+<div class="pic_title">
+<div class="pic_l"><a href="video/" target="_blank">游戏视频</a></div>
+<div class="pic_r"><a href="video/" target="_blank">更多&gt;&gt;</a></div>
+</div>
+<ul>
+<li><a href="/a/20140220/content-114.html" target="_blank"><img src="/img/v01.jpg"/><p>形象大变身《王国征服2》</p></a></li>
+<li><a href="/a/20140220/content-115.html" target="_blank"><img src="/img/v02.jpg"/><p>快来《手游伴侣》领《西游</p></a></li>
+<li><a href="/a/20140220/content-120.html" target="_blank"><img src="/img/v03.jpg"/><p>经营类策略游戏《联萌破坏</p></a></li>
+<li><a href="/a/20140220/content-121.html" target="_blank"><img src="/img/v04.jpg"/><p>《魔龙推币机》年末感谢祭</p></a></li>
+ 
+<div style="clear:both;"></div>
+ 
+</ul>
+</div>
 <div class="bo">
 <div class="bq"><a href="/" target="_blank">关于我们</a> - <a href="/" target="_blank">联系我们</a> - <a href="/" target="_blank">广告服务</a> - <a href="/" target="_blank">免责申明</a></div>
- 
 <div class="bq">Powered by <strong><a href="/" target="_blank">国搜游戏</a></strong>&nbsp; &copy; 2014</div>
-<div class="bq">Copyright @ 2014 www.8558.com Inc. All Rights Reserved. 8558游戏平台 版权所有</div>
+<div class="bq">Copyright @ 2014 8558.com. All Rights Reserved. 8558游戏平台 版权所有</div>
 <div class="bq">京ICP备11002130号-3</div>
 </div>
- 
+<script src="/js/common.js" type="text/javascript"></script>
+<script src="/js/jquery.slider.js" type="text/javascript"></script>
+<script src="/js/jquery.KinSlideshow-1.2.1.min.js" type="text/javascript"></script>
+<script type="text/javascript"> 
+$(function(){
+$("#foccous").KinSlideshow({
+moveStyle:"down",
+intervalTime:5,
+mouseEvent:"mouseover",
+titleFont:{TitleFont_size:14,TitleFont_color:"#ffffff"}
+});
+})
+</script>
 </body>
 </html>
