@@ -103,7 +103,7 @@ body{ background: url('../image/gamebg.jpg') no-repeat scroll center top;backgro
 .denlu{ width:116px; height:50px; float:left; padding-top:30px;}
 .denlu a{ color:#999; padding-left:10px; text-decoration:none; height:25px; line-height:30px;}
 .menu{ width:960px; height:38px; margin:0 auto;background:#000;}
-.menu a{color: #fff;display:inline;float: left;font-size: 14px;font-weight: bold;height: 38px;line-height: 38px;overflow: hidden;padding: 0 20px;}
+.menu a{color: #fff;display:inline;float: left;font-size: 14px;font-weight: bold;height: 38px;line-height: 38px;overflow: hidden;padding: 0 19px;}
 .menu a:hover{ background:#ff8800; color:#000; text-decoration:none;}
 
 .menu a.xuan{ background:#ff6600; color:#000; text-decoration:none;}
