@@ -1,1 +1,1 @@
-document.write("");
+document.write("<a href=\"/e/search/result/?searchid=1\">游戏</a> ");

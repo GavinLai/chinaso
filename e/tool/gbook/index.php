@@ -64,25 +64,12 @@ $url="<a href='".ReturnSiteIndexUrl()."'>".$fun_r['index']."</a>&nbsp;>&nbsp;".$
 <meta name="description" content="<?=$bname?>">
 <link href="/skin/style_2013/css/top.css" rel="stylesheet" type="text/css" />
 <link href="/skin/style_2013/css/index.css" rel="stylesheet" type="text/css" />
-<script src="/js/jquery.js" type="text/javascript"></script>
-<script src="/js/common.js" type="text/javascript"></script>
-<script src="/js/jquery.slider.js" type="text/javascript"></script>
-<script src="/js/jquery-1.4a2.min.js" type="text/javascript"></script>
-<script src="/js/jquery.KinSlideshow-1.2.1.min.js" type="text/javascript"></script>
-
 <link rel="shortcut icon" href="/favicon.ico" />
 <link rel="bookmark" href="/favicon.ico" type="image/x-icon"  />
 <link rel="icon" href="/favicon.ico" type="image/x-icon"  />
-<script type="text/javascript"> 
-$(function(){
-$("#foccous").KinSlideshow({
-moveStyle:"down",
-intervalTime:5,
-mouseEvent:"mouseover",
-titleFont:{TitleFont_size:14,TitleFont_color:"#ffffff"}
-});
-})
-</script>
+<script src="/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="/js/hijack.js" type="text/javascript"></script>
+
 </head>
 <body>
 [!--temp.dd_topbar--]
@@ -117,7 +104,12 @@ titleFont:{TitleFont_size:14,TitleFont_color:"#ffffff"}
     </div><!--右边结束-->
 </div>
 [!--temp.dd_友情链接--]
-[!--temp.zz_footer--]
+<div class="bo">
+<div class="bq"><a href="/" target="_blank">关于我们</a> - <a href="/" target="_blank">联系我们</a> - <a href="/" target="_blank">广告服务</a> - <a href="/" target="_blank">免责申明</a></div>
+<div class="bq">Powered by <strong><a href="/" target="_blank">国搜游戏</a></strong>&nbsp; &copy; 2014</div>
+<div class="bq">Copyright @ 2014 8558.com. All Rights Reserved. 8558游戏平台 版权所有</div>
+<div class="bq">京ICP备11002130号-3</div>
+</div>
 </body>
 </html>
 
