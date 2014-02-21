@@ -1,16 +1,16 @@
 @charset "utf-8";
 /* CSS Document */
-.banner{ height:256px; width:960px; margin:0 auto;overflow:hidden;background:#fff;}
+.banner{ height:256px; width:960px; margin:0 auto;overflow:hidden;background:#fff;padding-top:10px;}
 .ba_left{ width:380px; height:246px; float:right;  padding-top:10px;}
-.ba_left h1{ height:38px; display:block; font-family: "微软雅黑","宋体",serif;font-size: 20px; font-family: "微软雅黑","宋体",serif;font-size: 20px; font-weight: normal;}
+.ba_left h1{ height:38px; display:block; font-family: "微软雅黑","宋体",serif;font-size: 20px; font-weight: normal;}
 .xbt{ width:380px; padding-bottom:8px;}
-.ba_left h1 a{ color:#333}
+.ba_left h1 a{ color:#ff7700;}
 .ba_left h1 a:hover{ color:#c00;}
-.xbt li{ height:23px; width:190px; float:left;}
-.xbt li a{ color:#333}
+.xbt li{ height:27px; width:360px; float:left;}
+.xbt li a{ color:#333;font-size:14px;}
 .xbt li a:hover{ color:#c00;}
 .content{ width:960px; margin:0 auto 10px auto;}
-.ba_right{ height:256px; width:559px; float:left;}
+.ba_right{ height:256px; width:559px; float:left;margin-left:5px;}
 
 .flash {
   height: 224px;
@@ -28,6 +28,8 @@
 .cn_left li{ height:29px; display:block; font-size:14px; background:url(../image/ufo_46.gif) no-repeat 2px 3px; padding-left:12px;}
 .cn_left li a{ color:#333;}
 .cn_left li a:hover{ color:#c00;}
+.cn_left_tit {margin-bottom:15px;}
+.cn_left_tit a{ float:right;}
 .cn_right{ width:243px; float:right; height:683px; padding-right:13px;}
 .cn_rtop{ border-top:2px solid #e5e5e5; overflow:hidden; display:block; height:8px;}
 .cn_rtit{ width:243px; height:34px;}
