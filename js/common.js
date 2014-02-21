@@ -1,27 +1,27 @@
-<!--
-//xmlhttpºÍxmldom¶ÔÏó
+
+//xmlhttpå’Œxmldomå¯¹è±¡
 var GxXHTTP = null;
 var GxXDOM = null;
 var GxContainer = null;
 var GxShowError = false;
 var GxShowWait = false;
 var GxErrCon = "";
-var GxErrDisplay = "ÏÂÔØÊý¾ÝÊ§°Ü";
-var GxWaitDisplay = "ÕýÔÚÏÂÔØÊý¾Ý...";
+var GxErrDisplay = "ä¸‹è½½æ•°æ®å¤±è´¥";
+var GxWaitDisplay = "æ­£åœ¨ä¸‹è½½æ•°æ®...";
 
-//»ñÈ¡Ö¸¶¨IDµÄÔªËØ
+//èŽ·å–æŒ‡å®šIDçš„å…ƒç´ 
 
 function __(id){
     return document.getElementById(id);
 }
 
-//gcontainer ÊÇ±£´æÏÂÔØÍê³ÉµÄÄÚÈÝµÄÈÝÆ÷
-//mShowError ÊÇ·ñÌáÊ¾´íÎóÐÅÏ¢
-//GxShowWait ÊÇ·ñÌáÊ¾µÈ´ýÐÅÏ¢
-//mErrCon ·þÎñÆ÷·µ»ØÊ²Ã´×Ö·û´®ÊÓÎª´íÎó
-//mErrDisplay ·¢Éú´íÎóÊ±ÏÔÊ¾µÄÐÅÏ¢
-//mWaitDisplay µÈ´ýÊ±ÌáÊ¾ÐÅÏ¢
-//Ä¬ÈÏµ÷ÓÃ Gx_Ajax('divid',false,false,'','','')
+//gcontainer æ˜¯ä¿å­˜ä¸‹è½½å®Œæˆçš„å†…å®¹çš„å®¹å™¨
+//mShowError æ˜¯å¦æç¤ºé”™è¯¯ä¿¡æ¯
+//GxShowWait æ˜¯å¦æç¤ºç­‰å¾…ä¿¡æ¯
+//mErrCon æœåŠ¡å™¨è¿”å›žä»€ä¹ˆå­—ç¬¦ä¸²è§†ä¸ºé”™è¯¯
+//mErrDisplay å‘ç”Ÿé”™è¯¯æ—¶æ˜¾ç¤ºçš„ä¿¡æ¯
+//mWaitDisplay ç­‰å¾…æ—¶æç¤ºä¿¡æ¯
+//é»˜è®¤è°ƒç”¨ Gx_Ajax('divid',false,false,'','','')
 
 function Gx_Ajax(gcontainer,mShowError,mShowWait,mErrCon,mErrDisplay,mWaitDisplay){
 
@@ -34,17 +34,17 @@ function Gx_Ajax(gcontainer,mShowError,mShowWait,mErrCon,mErrDisplay,mWaitDispla
     if(mWaitDisplay!="") GxWaitDisplay = mWaitDisplay;
 
 
-    //post»òget·¢ËÍÊý¾ÝµÄ¼üÖµ¶Ô
+    //postæˆ–getå‘é€æ•°æ®çš„é”®å€¼å¯¹
     this.keys = Array();
     this.values = Array();
     this.keyCount = -1;
     this.sendlang = 'gb2312';
 
-    //ÇëÇóÍ·ÀàÐÍ
+    //è¯·æ±‚å¤´ç±»åž‹
     this.rtype = 'text';
 
-    //³õÊ¼»¯xmlhttp
-    //IE6¡¢IE5
+    //åˆå§‹åŒ–xmlhttp
+    //IE6ã€IE5
     if(window.ActiveXObject){
         try { GxXHTTP = new ActiveXObject("Msxml2.XMLHTTP");}catch (e){ }
         if (GxXHTTP == null) try { GxXHTTP = new ActiveXObject("Microsoft.XMLHTTP");} catch (e) { }
@@ -53,7 +53,7 @@ function Gx_Ajax(gcontainer,mShowError,mShowWait,mErrCon,mErrDisplay,mWaitDispla
         GxXHTTP = new XMLHttpRequest();
     }
 
-    //Ôö¼ÓÒ»¸öPOST»òGET¼üÖµ¶Ô
+    //å¢žåŠ ä¸€ä¸ªPOSTæˆ–GETé”®å€¼å¯¹
     this.AddKeyN = function(skey,svalue){
         if(this.sendlang=='utf-8') this.AddKeyUtf8(skey, svalue);
         else this.AddKey(skey, svalue);
@@ -67,7 +67,7 @@ function Gx_Ajax(gcontainer,mShowError,mShowWait,mErrCon,mErrDisplay,mWaitDispla
         this.values[this.keyCount] = escape(svalue);
     };
 
-    //Ôö¼ÓÒ»¸öPOST»òGET¼üÖµ¶Ô
+    //å¢žåŠ ä¸€ä¸ªPOSTæˆ–GETé”®å€¼å¯¹
     this.AddKeyUtf8 = function(skey,svalue) {
         this.keyCount++;
         this.keys[this.keyCount] = skey;
@@ -76,14 +76,14 @@ function Gx_Ajax(gcontainer,mShowError,mShowWait,mErrCon,mErrDisplay,mWaitDispla
         this.values[this.keyCount] = encodeURI(svalue);
     };
 
-    //Ôö¼ÓÒ»¸öHttpÇëÇóÍ·¼üÖµ¶Ô
+    //å¢žåŠ ä¸€ä¸ªHttpè¯·æ±‚å¤´é”®å€¼å¯¹
     this.AddHead = function(skey,svalue) {
         this.rkeyCount++;
         this.rkeys[this.rkeyCount] = skey;
         this.rvalues[this.rkeyCount] = svalue;
     };
 
-    //Çå³ýµ±Ç°¶ÔÏóµÄ¹þÏ£±í²ÎÊý
+    //æ¸…é™¤å½“å‰å¯¹è±¡çš„å“ˆå¸Œè¡¨å‚æ•°
     this.ClearSet = function(){
         this.keyCount = -1;
         this.keys = Array();
@@ -95,7 +95,7 @@ function Gx_Ajax(gcontainer,mShowError,mShowWait,mErrCon,mErrDisplay,mWaitDispla
 
 
     GxXHTTP.onreadystatechange = function(){
-        //ÔÚIE6ÖÐ²»¹Ü×è¶Ï»òÒì²½Ä£Ê½¶¼»áÖ´ÐÐÕâ¸öÊÂ¼þµÄ
+        //åœ¨IE6ä¸­ä¸ç®¡é˜»æ–­æˆ–å¼‚æ­¥æ¨¡å¼éƒ½ä¼šæ‰§è¡Œè¿™ä¸ªäº‹ä»¶çš„
         if(GxXHTTP.readyState == 4){
             if(GxXHTTP.status == 200){
                 if(GxXHTTP.responseText!=GxErrCon){
@@ -111,7 +111,7 @@ function Gx_Ajax(gcontainer,mShowError,mShowWait,mErrCon,mErrDisplay,mWaitDispla
         else { if(GxShowWait) GxContainer.innerHTML = GxWaitDisplay; }
     };
 
-    //¼ì²â×è¶ÏÄ£Ê½µÄ×´Ì¬
+    //æ£€æµ‹é˜»æ–­æ¨¡å¼çš„çŠ¶æ€
     this.BarrageStat = function(){
         if(GxXHTTP==null) return;
         if(typeof(GxXHTTP.status)!=undefined && GxXHTTP.status == 200){
@@ -124,29 +124,29 @@ function Gx_Ajax(gcontainer,mShowError,mShowWait,mErrCon,mErrDisplay,mWaitDispla
         }
     };
 
-    //·¢ËÍhttpÇëÇóÍ·
+    //å‘é€httpè¯·æ±‚å¤´
     this.SendHead = function(){
-        //·¢ËÍÓÃ»§×ÔÐÐÉè¶¨µÄÇëÇóÍ·
+        //å‘é€ç”¨æˆ·è‡ªè¡Œè®¾å®šçš„è¯·æ±‚å¤´
         if(this.rkeyCount!=-1){ 
             for(var i = 0;i<=this.rkeyCount;i++){
                 GxXHTTP.setRequestHeader(this.rkeys[i],this.rvalues[i]);
             }
         }
-        ¡¡if(this.rtype=='binary'){
-        ¡¡GxXHTTP.setRequestHeader("Content-Type","multipart/form-data");
+        ã€€if(this.rtype=='binary'){
+        ã€€GxXHTTP.setRequestHeader("Content-Type","multipart/form-data");
     }else{
         GxXHTTP.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
     }
 };
 
-//ÓÃPost·½Ê½·¢ËÍÊý¾Ý
+//ç”¨Postæ–¹å¼å‘é€æ•°æ®
 this.SendPost = function(purl){
     var pdata = "";
     var i=0;
     this.state = 0;
     GxXHTTP.open("POST", purl, true);
     this.SendHead();
-    //postÊý¾Ý
+    //postæ•°æ®
     if(this.keyCount!=-1){
         for(;i<=this.keyCount;i++){
             if(pdata=="") pdata = this.keys[i]+'='+this.values[i];
@@ -156,12 +156,12 @@ this.SendPost = function(purl){
     GxXHTTP.send(pdata);
 };
 
-//ÓÃGET·½Ê½·¢ËÍÊý¾Ý
+//ç”¨GETæ–¹å¼å‘é€æ•°æ®
 this.SendGet = function(purl){
     var gkey = "";
     var i=0;
     this.state = 0;
-    //get²ÎÊý
+    //getå‚æ•°
     if(this.keyCount!=-1){ 
         for(;i<=this.keyCount;i++){
             if(gkey=="") gkey = this.keys[i]+'='+this.values[i];
@@ -175,12 +175,12 @@ this.SendGet = function(purl){
     GxXHTTP.send(null);
 };
 
-//ÓÃGET·½Ê½·¢ËÍÊý¾Ý£¬×èÈûÄ£Ê½
+//ç”¨GETæ–¹å¼å‘é€æ•°æ®ï¼Œé˜»å¡žæ¨¡å¼
 this.Send_Get = function(purl){
     var gkey = "";
     var i=0;
     this.state = 0;
-    //get²ÎÊý
+    //getå‚æ•°
     if(this.keyCount!=-1){ 
         for(;i<=this.keyCount;i++){
             if(gkey=="") gkey = this.keys[i]+'='+this.values[i];
@@ -192,18 +192,18 @@ this.Send_Get = function(purl){
     GxXHTTP.open("GET", purl, false);
     this.SendHead();
     GxXHTTP.send(null);
-    //firefoxÖÐÖ±½Ó¼ì²âXHTTP×´Ì¬
+    //firefoxä¸­ç›´æŽ¥æ£€æµ‹XHTTPçŠ¶æ€
     this.BarrageStat();
 };
 
-//ÓÃPost·½Ê½·¢ËÍÊý¾Ý
+//ç”¨Postæ–¹å¼å‘é€æ•°æ®
 this.Send_Post = function(purl){
     var pdata = "";
     var i=0;
     this.state = 0;
     GxXHTTP.open("POST", purl, false);
     this.SendHead();
-    //postÊý¾Ý
+    //postæ•°æ®
     if(this.keyCount!=-1){
         for(;i<=this.keyCount;i++){
             if(pdata=="") pdata = this.keys[i]+'='+this.values[i];
@@ -211,18 +211,18 @@ this.Send_Post = function(purl){
         }
     }
     GxXHTTP.send(pdata);
-    //firefoxÖÐÖ±½Ó¼ì²âXHTTP×´Ì¬
+    //firefoxä¸­ç›´æŽ¥æ£€æµ‹XHTTPçŠ¶æ€
     this.BarrageStat();
 };
 
 
 } // End Class GxAjax
 
-//³õÊ¼»¯xmldom
+//åˆå§‹åŒ–xmldom
 function InitXDom(){
     if(GxXDOM!=null) return;
     var obj = null;
-    // Gecko¡¢Mozilla¡¢Firefox
+    // Geckoã€Mozillaã€Firefox
     if (typeof(DOMParser) != "undefined"){ 
         var parser = new DOMParser();
         obj = parser.parseFromString(xmlText, "text/xml");
@@ -237,7 +237,7 @@ function InitXDom(){
 
 
 
-//¶ÁÐ´cookieº¯Êý
+//è¯»å†™cookieå‡½æ•°
 function GetCookie(c_name){
     if (document.cookie.length > 0){
         c_start = document.cookie.indexOf(c_name + "=")
@@ -256,7 +256,7 @@ function GetCookie(c_name){
 function SetCookie(c_name,value,expiredays){
     var exdate = new Date();
     exdate.setDate(exdate.getDate() + expiredays);
-    document.cookie = c_name + "=" +escape(value) + ((expiredays == null) ? "" : ";expires=" + exdate.toGMTString()); //Ê¹ÉèÖÃµÄÓÐÐ§Ê±¼äÕýÈ·¡£Ôö¼ÓtoGMTString()
+    document.cookie = c_name + "=" +escape(value) + ((expiredays == null) ? "" : ";expires=" + exdate.toGMTString()); //ä½¿è®¾ç½®çš„æœ‰æ•ˆæ—¶é—´æ­£ç¡®ã€‚å¢žåŠ toGMTString()
 }
 function URLdecode(str) {
         var ret = "";
@@ -293,4 +293,3 @@ function getLeft(obj){
     if(obj.offsetParent!=null)  offset +=getLeft(obj.offsetParent);
     return offset;
 };
--->
