@@ -114,10 +114,10 @@ body{ background: url('../image/gamebg.jpg') no-repeat scroll center top;backgro
 .menu2_bg{ width:100%; height:38px; /*background:#111111;*/}
 .menu2{ width:960px; height:70px; margin:0 auto;}
 .menu2_logo{ height:50px; float:left; padding-top:20px;}
-.menu2_wz{ height:35px; padding-left:17px; padding-top:35px; float:left; color:#333}
+.menu2_wz{ height:35px; padding-left:5px; padding-top:35px; float:left; color:#333}
 .menu2_wz a{ color:#333}
 .menu2_wz a:hover{ color:#c00;}
-.menu2_so{ width:228px; height:24px; border:1px solid #dddddd; float:right; margin-top:28px;}
+.menu2_so{ width:228px; height:24px; border:1px solid #ddd; float:right; margin-top:28px;background:#fff;margin-right:5px;}
 .search_box2{ width:198px; height:24px; line-height:24px; color:#727272; border:none;  padding-left:7px; color:#727272; background:none; float:left;}
 .soso2{ width:16px; height:16px; background:url(../image/list_06.gif) no-repeat; float:left; margin-top:4px; border:none; cursor:pointer;}
 
