@@ -318,7 +318,7 @@ if($public_r[addnews_ok])
               </tr>
               <tr bgcolor="#FFFFFF"> 
                 <td height="25">开发与支持团队</td>
-                <td>Gavin, afarliu</td>
+                <td>Gavin, afarliu, liuhuan</td>
               </tr>
               <!-- 
               <tr bgcolor="#FFFFFF"> 
