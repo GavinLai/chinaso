@@ -45,7 +45,7 @@ $('#slider').nivoSlider();
 <input type="hidden" name="show" value="title" />
 <input type="hidden" name="tempid" value="1" />
 <div class="souk">
-<input type="text" class="search_box" id="keyboard" name="keyboard"   value="游戏" onfocus="if(this.value=='ufo'){this.value='';this.style.color='#727272'}" onblur="if(this.value==''){this.value='ufo';this.style.color='#727272'}"/>
+<input type="text" class="search_box" id="keyboard" name="keyboard"   value="游戏" onfocus="if(this.value=='游戏'){this.value='';this.style.color='#727272'}" onblur="if(this.value==''){this.value='游戏';this.style.color='#727272'}"/>
 <input name="" type="submit" class="soso" value=''/>
 </div>
 </form>
@@ -87,7 +87,9 @@ $bqno++;
 </div>
 </div>
 <div class="menu2">
+<!--
 <div class="menu2_logo"><a href="/"><img src="/image/logo2.gif" width="149" height="28" /></a></div>
+-->
 <div class="menu2_wz">[!--newsnav--]</div>
 <div class="menu2_so">
 <form action="/e/search/index.php" method="post" >

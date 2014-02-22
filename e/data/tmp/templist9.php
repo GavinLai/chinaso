@@ -39,7 +39,7 @@ if(!defined('InEmpireCMS'))
 <input type="hidden" name="show" value="title" />
 <input type="hidden" name="tempid" value="1" />
 <div class="souk">
-<input type="text" class="search_box" id="keyboard" name="keyboard"   value="游戏" onfocus="if(this.value=='ufo'){this.value='';this.style.color='#727272'}" onblur="if(this.value==''){this.value='ufo';this.style.color='#727272'}"/>
+<input type="text" class="search_box" id="keyboard" name="keyboard"   value="游戏" onfocus="if(this.value=='游戏'){this.value='';this.style.color='#727272'}" onblur="if(this.value==''){this.value='游戏';this.style.color='#727272'}"/>
 <input name="" type="submit" class="soso" value=''/>
 </div>
 </form>
@@ -81,7 +81,9 @@ $bqno++;
 </div>
 </div>
 <div class="menu2">
+<!--
 <div class="menu2_logo"><a href="/"><img src="/image/logo2.gif" width="149" height="28" /></a></div>
+-->
 <div class="menu2_wz">[!--newsnav--]</div>
 <div class="menu2_so">
 <form action="/e/search/index.php" method="post" >
@@ -110,9 +112,6 @@ $bqno++;
 <div class="left_xt"></div>
 [!--empirenews.listtemp--]
 
- 
-
- 
 <div class="epages">[!--show.page--]</div>
 </div>
  
@@ -120,7 +119,7 @@ $bqno++;
 <div class="news">
 <div class="left_title">
 <div class="left_l">游戏新闻</div>
-<div class="left_r"><a href="[!--news.url--]news" target="_blank">更多>></a></div>
+<div class="left_r"><a href="[!--news.url--]zixun/" target="_blank">更多&gt;&gt;</a></div>
 </div>
 <?php
 $bqno=0;
@@ -140,7 +139,7 @@ $bqno++;
 ?>
 </div>
 <div class="right_gg">
-<img src="/image/ad04.jpg"/>
+<a href="" target="_blank"><img src="/image/ad04.jpg"/></a>
 </div>
  
  
@@ -169,9 +168,7 @@ $bqno++;
 </div>
 <div style="clear:both;"></div>
 </div>
- 
- 
- 
+
 <div class="bo">
 <div class="bq"><a href="[!--news.url--]" target="_blank">关于我们</a> - <a href="[!--news.url--]" target="_blank">联系我们</a> - <a href="[!--news.url--]" target="_blank">广告服务</a> - <a href="[!--news.url--]" target="_blank">免责申明</a></div>
 <div class="bq">Powered by <strong><a href="[!--news.url--]" target="_blank">国搜游戏</a></strong>&nbsp; &copy; 2014</div>
@@ -180,4 +177,3 @@ $bqno++;
 </div>
 </body>
 </html>
-
