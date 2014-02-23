@@ -178,7 +178,7 @@ function sys_ShowTextPage($totalpage,$page,$dolink,$add,$type,$search=""){
 	$page_line=$public_r['textpagelistnum'];
 	$snum=2;
 	//$totalpage=ceil($num/$line);//取得总页数
-	$firststr='<a title="Page">&nbsp;<b>'.$page.'</b>/<b>'.$totalpage.'</b> </a>&nbsp;&nbsp;';
+	$firststr='<a title="Page" class="pgtxt" href="javascript:;">&nbsp;<span>'.$page.'</span>/<span>'.$totalpage.'</span></a>&nbsp;&nbsp;';
 	//上一页
 	if($page<>1)
 	{
