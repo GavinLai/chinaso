@@ -22,7 +22,6 @@ $(window).load(function() {
 $('#slider').nivoSlider();
 });
 </script>
- 
 </head>
  
 <body>
@@ -99,44 +98,16 @@ $bqno++;
 <input name="" type="submit" class="soso2" value=''/>
 </form>
 </div>
-</div> 
-
-<div class="banner">
-<div id="wrapper">
-<div id="slider-wrapper">
-<div id="slider" class="nivoSlider">
-<?php
-$bqno=0;
-$ecms_bq_sql=sys_ReturnEcmsLoopBq(1,4,2,1);
-if($ecms_bq_sql){
-while($bqr=$empire->fetch($ecms_bq_sql)){
-$bqsr=sys_ReturnEcmsLoopStext($bqr);
-$bqno++;
-?>
-<a href="<?=$bqsr[titleurl]?>" target="_blank"><img src="<?=$bqr[titlepic]?>"  width="961" height="400" title="<?=sub($bqr[title],0,48,false)?>" /></a>
-<?php
-}
-}
-?>
-
-</div>
-<div id="htmlcaption" class="nivo-html-caption">
-<strong><a href="/photo/tianwen/2013-11-18/946.html" target="_blank">探访神秘的加州“死亡谷”</a></strong>
-</div>
-</div>
-</div>
 </div>
  
 <div class="content">
 <div class="titles">
 <div class="titles_left">[!--class.name--]</div>
-<div class="titles_right"><a href="/photo/">更多&gt;&gt;</a></div>
+<div class="titles_right"></div>
 </div>
+
 <ul>
-
- [!--empirenews.listtemp--]<!--list.var1-->[!--empirenews.listtemp--]
-
- 
+[!--empirenews.listtemp--]<!--list.var1-->[!--empirenews.listtemp--] 
 <div style="clear:both;"></div>
 </ul>
 <div class="epages">[!--show.page--]</div>
@@ -144,8 +115,6 @@ $bqno++;
 </div>
 
 
- 
- 
 <div class="bo">
 <div class="bq"><a href="[!--news.url--]" target="_blank">关于我们</a> - <a href="[!--news.url--]" target="_blank">联系我们</a> - <a href="[!--news.url--]" target="_blank">广告服务</a> - <a href="[!--news.url--]" target="_blank">免责申明</a></div>
 <div class="bq">Powered by <strong><a href="[!--news.url--]" target="_blank">国搜游戏</a></strong>&nbsp; &copy; 2014</div>
@@ -154,4 +123,3 @@ $bqno++;
 </div>
 </body>
 </html>
-
