@@ -7,7 +7,7 @@ a:hover{ text-decoration: underline; color:#bc2d09;}
 .content{ width:958px; border:1px solid #818181; background:#0d0d0d; margin:0 auto 10px auto;}
 .title{ width:958px; height:93px; border-bottom:1px solid #505050; background:#0d0d0d}
 .title_left{ width:920px; height:56px; float:left; padding-top:20px; padding-left:20px;}
-.title_bt{ width:900px;text-align:center; height:50px; font-size:24px; font-family:"����"; font-weight:bold; color:#FFF}
+.title_bt{ width:900px;text-align:center; height:50px; font-size:24px; font-family:"黑体"; font-weight:bold; color:#FFF}
 .title_bt span{ font-size:12px; color:#7b7b7b}
 .title_sj{ width:900px; height:6px; color:#FFF; font-size:12px;text-align:center}
 .title_sj span{ color:#a90000;}
@@ -22,10 +22,10 @@ a:hover{ text-decoration: underline; color:#bc2d09;}
 .pageLink a:hover{
    background:#C9A100; color:#fff; border:solid 1px #C9A100;
   }
+.pageLink a.pgtxt{cursor:default;}
+.pageLink a.pgtxt:hover{background:#fff;text-decoration:none;color:#000;border:solid 1px #ccc;}
 .pageLink  b{ background:#C9A100; color:#fff; border:0; margin: 3px; padding: 3px 6px 2px; font-weight: 400; border:solid 1px #C9A100; }
 
-
-/*ͼ��*/
 .content5{ width:958px; height:366px; border:1px solid  #e3e3e3; margin:0px auto 10px auto;}
 .content5_title{height: 31px;background: #f6f6f6;border-bottom: 1px solid #e3e3e3;}
 .content5 ul{ padding-top:15px; width:942px; padding-left:16px;}
@@ -38,8 +38,6 @@ a:hover{ text-decoration: underline; color:#bc2d09;}
 .p2{ padding-right:11px; height:29px; line-height:29px; color:#666666; float:right}
 .p2 a{color:#666}
 .p2 a:hover{ color:#bc2d09}
-
-
 
 
 .p5{ padding-left:15px; height:31px; line-height:31px; float:left; font-size:12px; color:#333333; }
@@ -59,8 +57,6 @@ a:hover{ text-decoration: underline; color:#bc2d09;}
     color: #CC0000;
 }
 
-
-/*ͼƬ�Զ���ͼ*/
 .pic img{
   max-width:900px;
   myimg:expression(onload=function(){

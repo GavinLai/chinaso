@@ -2,14 +2,14 @@
 /* CSS Document */
 .banner{ height:256px; width:960px; margin:0 auto;overflow:hidden;background:#fff;padding-top:10px;}
 .ba_left{ width:380px; height:246px; float:right;  padding-top:10px;}
-.ba_left h1{ height:38px; display:block; font-family: "微软雅黑","宋体",serif;font-size: 20px; font-weight: normal;}
+.ba_left h1,.ba_left .hl{ height:38px; display:block; font-family: "微软雅黑","宋体",serif; font-weight: normal;}
 .xbt{ width:380px; padding-bottom:8px;}
-.ba_left h1 a{ color:#ff7700;}
-.ba_left h1 a:hover{ color:#c00;}
+.ba_left h1 a,.ba_left .hl a{ color:#ff7700;font-size: 20px;}
+.ba_left h1 a:hover,.ba_left .hl a:hover{ color:#c00;}
 .xbt li{ height:27px; width:360px; float:left;}
 .xbt li a{ color:#333;font-size:14px;}
 .xbt li a:hover{ color:#c00;}
-.content{ width:960px; margin:0 auto 10px auto;}
+.content{ width:960px; margin:0 auto 10px auto;background:#fff;}
 .ba_right{ height:256px; width:559px; float:left;margin-left:5px;}
 
 .flash {

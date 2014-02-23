@@ -64,7 +64,7 @@ width: 1px;
 
 .xgxw{ width:615px; height:55px;}
 .cnr_l {height:45px; background:url(../image/xiaokuai.gif) no-repeat 0px 15px;padding-left:10px;font-family: "微软雅黑","宋体",serif;font-size: 16px;float: left; line-height:45px;}
-.cnr_right {height: 45px;float: right;line-height:45px;}
+.cnr_right {height: 45px;float: right;line-height:45px;padding-right:10px;}
 
 
 .xgwz{ width:613px;  margin-bottom:10px; color:#333}
