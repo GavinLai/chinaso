@@ -126,4 +126,4 @@ a.nivo-prevNav {
 .clear {
   clear:both;
 }
-body{ background: url('/image/gamebg.jpg') no-repeat scroll center top;background-size: 1440px 800px;}
+body{ background: url('../image/gamebg.jpg') no-repeat scroll center top;background-size: 1440px 800px;}
