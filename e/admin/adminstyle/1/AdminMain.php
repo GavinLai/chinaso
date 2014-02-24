@@ -356,7 +356,10 @@ function DoOnclickMenu(m){
                     <TD width="60" class="flyoutLink" onclick="JumpToMain('main.php');" onmouseover="over(this)" onmouseout="out(this)">后台首页</TD>
                     <TD width="60" class="flyoutLink" onclick="window.open('../../');" onmouseover="over(this)" onmouseout="out(this)">网站首页</TD>
                     <TD width="60" class="flyoutLink" onclick="window.open('map.php','','width=1250,height=670,scrollbars=auto,resizable=yes,top=120,left=120');" onmouseover="over(this)" onmouseout="out(this)">后台地图</TD>
+                    <!-- 
                     <TD width="60" class="flyoutLink" onclick="window.open('http://bbs.phome.net/listthread-23-cms-page-0.html');" onmouseover="over(this)" onmouseout="out(this)">版本更新</TD>
+                    -->
+                    <TD></TD>
                   </TR>
                 </TBODY>
               </TABLE>
