@@ -182,7 +182,7 @@ function sys_ShowTextPage($totalpage,$page,$dolink,$add,$type,$search=""){
 	//上一页
 	if($page<>1)
 	{
-		$toppage='<a href="'.$dolink.$add[filename].$type.'">'.$fun_r['startpage'].'</a>&nbsp;';
+		$toppage='<a class="pg pgfirst" href="'.$dolink.$add[filename].$type.'">'.$fun_r['startpage'].'</a>&nbsp;';
 		$pagepr=$page-1;
 		if($pagepr==1)
 		{
@@ -192,14 +192,14 @@ function sys_ShowTextPage($totalpage,$page,$dolink,$add,$type,$search=""){
 		{
 			$prido=$add[filename].'_'.$pagepr.$type;
 		}
-		$prepage='<a href="'.$dolink.$prido.'">'.$fun_r['pripage'].'</a>';
+		$prepage='<a class="pg pgprev" href="'.$dolink.$prido.'">'.$fun_r['pripage'].'</a>';
 	}
 	//下一页
 	if($page!=$totalpage)
 	{
 		$pagenex=$page+1;
-		$nextpage='&nbsp;<a href="'.$dolink.$add[filename].'_'.$pagenex.$type.'">'.$fun_r['nextpage'].'</a>';
-		$lastpage='&nbsp;<a href="'.$dolink.$add[filename].'_'.$totalpage.$type.'">'.$fun_r['lastpage'].'</a>';
+		$nextpage='&nbsp;<a class="pg pgnext" href="'.$dolink.$add[filename].'_'.$pagenex.$type.'">'.$fun_r['nextpage'].'</a>';
+		$lastpage='&nbsp;<a class="pg pglast" href="'.$dolink.$add[filename].'_'.$totalpage.$type.'">'.$fun_r['lastpage'].'</a>';
 	}
 	$starti=$page-$snum<1?1:$page-$snum;
 	$no=0;
@@ -213,12 +213,12 @@ function sys_ShowTextPage($totalpage,$page,$dolink,$add,$type,$search=""){
 		}
 		elseif($i==1)
 		{
-			$is_1='<a href="'.$dolink.$add[filename].$type.'">';
+			$is_1='<a class="pg pgno" href="'.$dolink.$add[filename].$type.'">';
 			$is_2="</a>";
 		}
 		else
 		{
-			$is_1='<a href="'.$dolink.$add[filename].'_'.$i.$type.'">';
+			$is_1='<a class="pg pgno" href="'.$dolink.$add[filename].'_'.$i.$type.'">';
 			$is_2="</a>";
 		}
 		$returnstr.='&nbsp;'.$is_1.$i.$is_2;
