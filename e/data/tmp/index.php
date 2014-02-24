@@ -8,15 +8,15 @@ if(!defined('InEmpireCMS'))
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>国搜游戏-国搜游戏</title>
-<meta name="keywords" content="游戏资讯,国搜游戏,中国搜索,中国搜">
+<meta name="keywords" content="游戏资讯,国搜游戏,中国搜索,中国搜,8558,8558游戏,8558游戏平台">
 <meta name="description" content="国搜游戏是中国搜平台下的游戏频道，涉及游戏资讯，游戏平台相关推广等。">
-<link href="/skin/style_2013/css/top.css" rel="stylesheet" type="text/css" />
-<link href="/skin/style_2013/css/index.css" rel="stylesheet" type="text/css" />
 <link rel="shortcut icon" href="/favicon.ico" />
 <link rel="bookmark" href="/favicon.ico" type="image/x-icon"  />
 <link rel="icon" href="/favicon.ico" type="image/x-icon"  />
 <script src="/js/jquery-1.8.3.min.js" type="text/javascript"></script>
 <script src="/js/hijack.js" type="text/javascript"></script>
+<link href="/skin/style_2013/css/top.css" rel="stylesheet" type="text/css" />
+<link href="/skin/style_2013/css/index.css" rel="stylesheet" type="text/css" />
 
 </head>
 <body>
@@ -101,9 +101,9 @@ $bqsr=sys_ReturnEcmsLoopStext($bqr);
 $bqno++;
 ?>
 			<?php if($_i==1 or $_i==3){ ?>
-			<li class="hl"><a href="<?=$bqsr[titleurl]?>" target="_blank"><?=sub($bqr[title],0,60,false)?></a></li>
+			<li class="hl"><a href="<?=$bqsr[titleurl]?>" target="_blank"><?=sub($bqr[title],0,35,false)?></a></li>
 			<?php }else{ ?>
-			<li><a href="<?=$bqsr[titleurl]?>" target="_blank"><?=sub($bqr[title],0,100,false)?></a></li>
+			<li><a href="<?=$bqsr[titleurl]?>" target="_blank"><?=sub($bqr[title],0,60,false)?></a></li>
 			<?php } $_i++; ?>
 			<?php
 }
@@ -412,11 +412,45 @@ $bqno++;
  
  
 <div class="shuaxin">
-<div class="cnr_l">猜你喜欢</div>
-<div class="shuaxin_r"><a href="javascript:;" id='cai'><img src="image/shuaxin.gif" width="16" height="15" /></a></div>
+  <div class="cnr_l">猜你喜欢</div>
+  <div class="shuaxin_r"><a href="javascript:;" id='cai'><img src="image/shuaxin.gif" width="16" height="15" /></a></div>
+</div>
+<div class="heiks">
+	<div class="heiks_t">
+		<div class="heiks_left">
+			<div class="heiks_lto">
+				<a href="/jingji/chuanyuehuoxian/" target="_blank" >穿越火线</a>
+			</div>
+			<div class="heiks_b">
+				<div class="heiks_ble">
+					<a href="/photo/list01/" target="_blank" >壁纸原画</a>
+				</div>
+				<div class="heiks_bri">
+					<a href="http://www.8558.com/game-server_list.html?game_id=112" target="_blank" >烈焰</a>
+				</div>
+			</div>
+		</div>
+		<div class="heiks_right">
+			<p class="heiks_rip"><a href="/video/" target="_blank" >游戏视频</a></p>
+			<p class="heiks_rip2"><a href="http://www.8558.com/game-server_list.html?game_id=140" target="_blank" >诸神世界</a></p>
+		</div>
+	</div>
+	<div class="keib">
+		<div class="keib_left">
+			<p class="keib_left_p"><a href="http://www.8558.com/game-server_list.html?game_id=130" target="_blank" >绝代双骄</a></p>
+			<p class="keib_left_p3"><a href="http://bbs.8558.com/" target="_blank" >游戏论坛</a></p>
+		</div>
+		<div class="keib_cn">
+			<p class="keib_cn_p"><a href="/jingji/" target="_blank" >电子竞技</a></p>
+			<p class="keib_cn_p2"><a href="/" target="_blank" >部落守卫战</a></p>
+		</div>
+		<div class="keib_right">
+			<p class="keib_right_p"><a href="http://www.8558.com/game-server_list.html?game_id=144" target="_blank" >九天传</a></p>
+			<p class="keib_right_p2"><a href="/bagua/" target="_blank" >游戏八卦</a></p>
+		</div>
+	</div>
 </div>
 
-<div class="heiks"><div class="heiks_t"><div class="heiks_left"><div class="heiks_lto"><a href="/" target="_blank" >天天飞车</a></div><div class="heiks_b"><div class="heiks_ble"><a href="/" target="_blank" >神魔</a></div><div class="heiks_bri"><a href="/" target="_blank" >君王2</a></div></div></div> <div class="heiks_right"><p class="heiks_rip"><a href="/" target="_blank" >疯狂猜图</a></p><p class="heiks_rip2"><a href="/" target="_blank" >全民飞机大战</a></p></div></div><div class="keib"><div class="keib_left"><p class="keib_left_p"><a href="/" target="_blank" >世界末日</a></p><p class="keib_left_p3"><a href="/" target="_blank" >保卫萝卜2</a></p></div><div class="keib_cn"><p class="keib_cn_p"><a href="/" target="_blank" >斗战神魔谱</a></p><p class="keib_cn_p2"><a href="/" target="_blank" >部落守卫战</a></p></div><div class="keib_right"><p class="keib_right_p"><a href="/" target="_blank" >乱斗堂</a></p><p class="keib_right_p2"><a href="/" target="_blank" >魔物狩猎者</a></p></div></div></div>
 <div class="ph">
 <div class="ph_title">
 <ul>
@@ -550,7 +584,7 @@ $bqno++;
 <div class="bo">
 <div class="bq"><a href="/" target="_blank">关于我们</a> - <a href="/" target="_blank">联系我们</a> - <a href="/" target="_blank">广告服务</a> - <a href="/" target="_blank">免责申明</a></div>
 <div class="bq">Powered by <strong><a href="/" target="_blank">国搜游戏</a></strong>&nbsp; &copy; 2014</div>
-<div class="bq">Copyright @ 2014 8558.com. All Rights Reserved. 8558游戏平台 版权所有</div>
+<div class="bq">Copyright @ 2014 <a href="http://www.8558.com/" target="_blank">8558.com</a>. All Rights Reserved. <a href="http://www.8558.com/" target="_blank">8558游戏平台</a> 版权所有</div>
 <div class="bq">京ICP备11002130号-3</div>
 </div>
 <script src="/js/common.js" type="text/javascript"></script>
