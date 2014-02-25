@@ -7,17 +7,16 @@ if(!defined('InEmpireCMS'))
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>国搜游戏-国搜游戏</title>
+<title>国搜游戏频道 - 做公正、权威的游戏媒体</title>
 <meta name="keywords" content="游戏资讯,国搜游戏,中国搜索,中国搜,8558,8558游戏,8558游戏平台">
 <meta name="description" content="国搜游戏是中国搜平台下的游戏频道，涉及游戏资讯，游戏平台相关推广等。">
+<link href="/skin/style_2013/css/top.css" rel="stylesheet" type="text/css" />
+<link href="/skin/style_2013/css/index.css" rel="stylesheet" type="text/css" />
 <link rel="shortcut icon" href="/favicon.ico" />
 <link rel="bookmark" href="/favicon.ico" type="image/x-icon"  />
 <link rel="icon" href="/favicon.ico" type="image/x-icon"  />
 <script src="/js/jquery-1.8.3.min.js" type="text/javascript"></script>
 <script src="/js/hijack.js" type="text/javascript"></script>
-<link href="/skin/style_2013/css/top.css" rel="stylesheet" type="text/css" />
-<link href="/skin/style_2013/css/index.css" rel="stylesheet" type="text/css" />
-
 </head>
 <body>
 <div class="h">
@@ -83,7 +82,7 @@ $bqno++;
 </div><!-- div.h -->
 <div style="width:960px; height:100px; margin:0px auto; margin-top:10px;">
 <!-- 广告位：广告960*90 -->
-<a href="" target="_blank"><img src="/img/ad01.jpg" width="960" height="90" /></a>
+<script src="/d/js/acmsd/thea1.js"></script>
 </div>
 <div class="banner">
 

@@ -60,15 +60,15 @@ $url="<a href='".ReturnSiteIndexUrl()."'>".$fun_r['index']."</a>&nbsp;>&nbsp;".$
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title><?=$bname?>-国搜游戏</title>
-<meta name="keywords" content="<?=$bname?>">
+<meta name="keywords" content="<?=$bname?>,8558,8558游戏,8558游戏平台">
 <meta name="description" content="<?=$bname?>">
-<link href="/skin/style_2013/css/top.css" rel="stylesheet" type="text/css" />
-<link href="/skin/style_2013/css/index.css" rel="stylesheet" type="text/css" />
 <link rel="shortcut icon" href="/favicon.ico" />
 <link rel="bookmark" href="/favicon.ico" type="image/x-icon"  />
 <link rel="icon" href="/favicon.ico" type="image/x-icon"  />
 <script src="/js/jquery-1.8.3.min.js" type="text/javascript"></script>
 <script src="/js/hijack.js" type="text/javascript"></script>
+<link href="/skin/style_2013/css/top.css" rel="stylesheet" type="text/css" />
+<link href="/skin/style_2013/css/index.css" rel="stylesheet" type="text/css" />
 
 </head>
 <body>
@@ -107,7 +107,7 @@ $url="<a href='".ReturnSiteIndexUrl()."'>".$fun_r['index']."</a>&nbsp;>&nbsp;".$
 <div class="bo">
 <div class="bq"><a href="/" target="_blank">关于我们</a> - <a href="/" target="_blank">联系我们</a> - <a href="/" target="_blank">广告服务</a> - <a href="/" target="_blank">免责申明</a></div>
 <div class="bq">Powered by <strong><a href="/" target="_blank">国搜游戏</a></strong>&nbsp; &copy; 2014</div>
-<div class="bq">Copyright @ 2014 8558.com. All Rights Reserved. 8558游戏平台 版权所有</div>
+<div class="bq">Copyright @ 2014 <a href="http://www.8558.com/" target="_blank">8558.com</a>. All Rights Reserved. <a href="http://www.8558.com/" target="_blank">8558游戏平台</a> 版权所有</div>
 <div class="bq">京ICP备11002130号-3</div>
 </div>
 </body>
