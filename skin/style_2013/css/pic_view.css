@@ -15,8 +15,8 @@ a:hover{ text-decoration: underline; color:#bc2d09;}
 .pic{width: 920px; float:left; text-align:center; padding-left:20px;padding-top:20px; padding-bottom:20px; color: #FFFFFF; line-height:24px; font-size:14px;position:relative;}
 .pic p{padding-top:10px; text-align:center;}
 .arrowOP{position: absolute;top: 0;bottom: 0;width: 50%;z-index: 1;background: #fff;filter: alpha(opacity=0);-moz-opacity: 0;opacity: 0;}
-.arrowLt{left: 0;cursor: url("../image/left.cur"),auto;}
-.arrowRt{right: 0;cursor: url("../image/right.cur"),auto;}
+.arrowLt{left: 0;cursor: url("/image/left.cur"),auto;}
+.arrowRt{right: 0;cursor: url("/image/right.cur"),auto;}
 #focuspic{position: absolute;z-index:2;width:55px;height:18px;top:5px;right:5px;color:#ddd;font-size:12px;}
 
 .b_page{ float:left;width: 960px; padding-top:10px; padding-bottom:20px;}
