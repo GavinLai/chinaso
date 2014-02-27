@@ -59,17 +59,16 @@ $url="<a href='".ReturnSiteIndexUrl()."'>".$fun_r['index']."</a>&nbsp;>&nbsp;".$
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title><?=$bname?>-国搜游戏</title>
+<title>国搜游戏频道 - 做公正、权威的游戏媒体</title>
 <meta name="keywords" content="<?=$bname?>,8558,8558游戏,8558游戏平台">
 <meta name="description" content="<?=$bname?>">
+<link href="/skin/style_2013/css/top.css" rel="stylesheet" type="text/css" />
+<link href="/skin/style_2013/css/index.css" rel="stylesheet" type="text/css" />
 <link rel="shortcut icon" href="/favicon.ico" />
 <link rel="bookmark" href="/favicon.ico" type="image/x-icon"  />
 <link rel="icon" href="/favicon.ico" type="image/x-icon"  />
 <script src="/js/jquery-1.8.3.min.js" type="text/javascript"></script>
 <script src="/js/hijack.js" type="text/javascript"></script>
-<link href="/skin/style_2013/css/top.css" rel="stylesheet" type="text/css" />
-<link href="/skin/style_2013/css/index.css" rel="stylesheet" type="text/css" />
-
 </head>
 <body>
 [!--temp.dd_topbar--]

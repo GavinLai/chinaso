@@ -1,1 +1,1 @@
-document.write("<a href=\"[!--this.classlink--]\">[!--this.classname--]</a>");
+document.write("<a href=\"/pingce/yy/\">页游</a><a href=\"/pingce/sy/\">手游</a><a href=\"/pingce/dy/\">端游</a>");

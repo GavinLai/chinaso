@@ -1,1 +1,1 @@
-document.write("<a href=\"[!--this.classlink--]\">[!--this.classname--]</a>");
+document.write("<a href=\"/zixun/\">游戏资讯</a><a href=\"/pingce/\">游戏评测</a><a href=\"/jingji/\">电子竞技</a><a href=\"/bagua/\">八卦周边</a><a href=\"/hangye/\">行业信息</a><a href=\"/photo/\">游戏美图</a><a href=\"/video/\">游戏视频</a><a href=\"/zt/\">专题报道</a>");
