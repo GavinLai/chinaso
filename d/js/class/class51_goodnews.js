@@ -1,1 +1,0 @@
-document.write("<li><a href=\"/a/20140224/content-1002.html\" title=\"LOL装扮精美电脑壁纸zz\">LOL装扮精美电脑壁纸zz</a></li>");
