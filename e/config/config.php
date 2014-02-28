@@ -520,7 +520,7 @@ $emod_r[4]=Array('mid'=>4,
 'qeditdofunf'=>'||',
 'definfovoteid'=>0,
 'orderf'=>'',
-'sonclass'=>'|50|51|',
+'sonclass'=>'|60|',
 'tid'=>4,
 'tbname'=>'flash');
 $emod_r[5]=Array('mid'=>5,
