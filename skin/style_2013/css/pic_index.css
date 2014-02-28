@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 .banner{ width:960px; margin:0 auto 20px auto;}
-.content{ width:960px; margin:0 auto;}
+.content{ width:960px; margin:0 auto;background:#fff;}
 .titles{ height:40px; border-bottom:1px solid #cbcbcb; margin-bottom:15px;}
 .titles_left{ height:40px; line-height:40px; background:url(../image/sf_07.jpg) no-repeat 12px 10px; padding-left:25px; font-size:24px; font-family:"黑体"; font-weight:bold; float:left;}
 .titles_right{ width:50px; height:16px; float:right; padding-top:15px;}
@@ -13,7 +13,7 @@
 
 
 
-.bo{ border-top:1px solid #dddddd; background:#f8f8f8; padding-top:15px;}
+.bo{ border-top:1px solid #dddddd; background:#f8f8f8; padding-top:15px;margin-top:15px;}
 
 .bq {
     margin: 0px auto 10px auto;
