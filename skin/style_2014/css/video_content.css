@@ -1,0 +1,232 @@
+@CHARSET "UTF-8";
+
+/* CSS Document */
+.content{border-top:1px solid #ddd;padding-top:19px; padding-bottom:20px;}
+.left{ width:638px; border-right:1px solid #dddddd; padding-bottom:20px; float:left;}
+.left h1 {text-align: center;height: 55px;display: block;font-size: 26px;font-weight: bold;line-height: 40px;letter-spacing: -1px;}
+.sj{ width:601px; height:20px; border-bottom:dotted 1px #dbdbdb;font-family:SimSun,Arial,sans-serif;color:#666;}
+.sj_left{ height:20px; float:left; padding-left:5px;}
+.sj_right{ height:20px; float:right;}
+.sj_right a{ color:#666}
+.sj_right a:hover{ color:#c00;}
+
+
+
+.c{font-size:14px; color:#000; line-height:24px; color:#333; width:610px; padding-bottom:10px; padding-left:5px; padding-top:10px;}
+.c p{ padding-bottom:15px;} 
+#zoom img{clear:both}
+.ad04{float:right; margin: 18px 0 15px 15px;clear: right;height:280px;}
+#zhan{
+float: right;           
+clear: right;            
+height: 210px; 
+width: 1px;        
+}
+
+.cc2{ color:#000}
+.cc2 a{ color:#000}
+.cc2 a:hover{ text-decoration: underline; color:#ba2636;}
+.cc2 img{text-align:center;}
+.gg2{ height:33px; width:561px; padding-left:30px;}
+
+
+
+.page1 {
+  TEXT-ALIGN: center; PADDING-BOTTOM: 4px;PADDING-LEFT: 0px; WIDTH:631px; PADDING-RIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 0px; text-indent:0em; line-height:22px;
+}
+.pageLink a{
+  padding:3px 6px 2px; margin:3px; border:solid 1px #ccc; text-align:center; color:#000000; background: #fff;
+  }
+.pageLink a:hover{
+   background:#C9A100; color:#fff; border:solid 1px #C9A100;
+  }
+.pageLink b{ background:#C9A100; color:#fff; border:0; margin: 3px; padding: 3px 6px 2px; font-weight: 400; border:solid 1px #C9A100; }
+
+
+.gg3{ width:591px; margin-bottom:10px; padding-left:15px;}
+
+.xintg{ height:47px;}
+.xintg_wb{ width:328px; height:47px; float:left; }
+.xintg_bq{ width:17px; height:27px; background:#424242; float:left; text-align:center; padding:3px 0 0 0; color:#FFF; margin-right:2px; overflow:hidden; line-height:13px;}
+.xintg_xz{ height:30px; line-height:30px; padding:0 8px; float:left; background:#efba00;font-size: 16px; color:#fff;}
+
+.xintg_tx{ height:47px; float:right; width:245px;}
+.xintg_tx a{ color:#666; display:block; width:36px; height:46px; float:left;}
+
+.xintg_tx span{ display:block; float:left; width:23px; height:44px; padding-top:3px;}
+
+
+
+
+
+.xgxw{ width:615px; height:55px;}
+.cnr_l {height:45px; background:url(../img/xiaokuai.gif) no-repeat 0px 14px;padding-left:10px;font-size: 16px;float: left; line-height:45px;}
+.cnr_right {height: 45px;float: right;line-height:45px;}
+
+.xgwz{ width:613px;  margin-bottom:10px; color:#333}
+.xgwz li span{color:#c3c3c3;margin-left:12px;float:left; font-size:14px;}
+.xgwz li {
+ WIDTH: 579px;background:url(../img/ufo_46.gif) no-repeat 0px 4px; HEIGHT: 30px; FONT-SIZE: 14px;HEIGHT: 30px;
+HEIGHT: 30px\9;*HEIGHT: 26px;_HEIGHT: 26px;display:block; padding-left:10px;
+} 
+.xgwz li a{ float:left;}
+
+.tu_xt{ width:628px; height:1px; border-top:1px solid #e4e4e4;}
+.tu{ width:628px;}
+.tu ul{ width:628px; display:block;}
+.tu li{ width:135px; height:151px; float:left; display:inline;}
+.tu li img{ width:135px; height:95px;}
+.tu li p{ text-align:center; line-height:18px;}
+.tu li a{ color:#333333}
+.tu li a:hover{ color:#c00;}
+
+
+.mygt{ width:628px; height:387px;}
+.mygt_title{ width:591px; height:54px; border-top:2px solid #1f4fa1;}
+.tcleft{ height:54px; float:left; line-height:54px; font-size:16px;}
+
+.mygt_left{ width:197px; height:329px; float:left;}
+.mygt_left li{ width:177px; height:158px; display:block;}
+.mygt_left li img{ width:170px; height:120px; padding:2px; border:1px solid #dcdcdc;}
+.mygt_left li p{ text-align:center; padding-top:7px;}
+.mygt_left li a{ color:#000000}
+.mygt_left li a:hover{ color:#c00;}
+.mygt_right{ width:420px; height:329px; float:left;}
+.mygt_bt{ width:381px; height:64px;}
+.mygt_bt p{ width:381px; height:33px; font-size:18px; display:block;font-size: 16px;}
+.mygt_bt a{ color:#333}
+.mygt_bt a:hover{ color:#c00;}
+.mygt_bt span{ width:381px; height:26px; display:block;}
+.mygt_bt span a{ color:#666}
+.mygt_bt span a:hover{ color:#c00;}
+.mygt_right ul{ padding-bottom:10px;}
+.mygt_right li{ width:370px; height:31px; display:block; background:url(../img/ufo_46.gif) no-repeat 0px 5px; font-size:14px; padding-left:11px; overflow:hidden;}
+.mygt_right li a{ color:#333; }
+.mygt_right li a:hover{ color:#c00;}
+.mygt_right li span{ width:48px; float:right; color:#999;}
+
+
+.ph{ width:628px; height:314px;border-top:1px solid #e4e4e4;}
+
+.ph_left{ width:305px; height:314px; float:left;}
+.ph_title{ width:295px; height:56px;font-size:16px; color:#333;}
+.ph ul{ width:281px; height:257px; display:block; background:url(../img/paihang.gif) no-repeat; padding-left:24px;}
+.ph li{ height:23px;display:block; padding-top:2px;}
+.ph li a{ color:#333}
+.ph li a:hover{ color:#c00;}
+
+
+
+
+.right{ width:320px;float:left;}
+.right_gg{ width:305px; padding-left:15px; padding-bottom:15px;}
+.right_gg2{ width:305px; padding-left:15px; padding-bottom:15px;}
+
+.left_title{ height:45px; }
+.left_l{ height:40px;font-size:18px; font-weight: normal; float:left;}
+.left_r{ height:40px; float:right; padding-right:7px; line-height:40px;}
+.left_r a{ color:#333}
+.left_r a:hover{ color:#c00;}
+
+
+
+.news55a{overflow:hidden; width:305px;  padding-left:15px; border-top:1px solid #dcdcdc;}
+.news55a ul{ width:305px;}
+.news55a li{ width:140px;min-height:100px;_height:100px; display:inline; float:left; margin-right:10px;}
+.news55a li img{width:140px; /*height:100px;*/ border:1px solid #c6cacd;}
+.news55a li p{ text-align:center; padding-top:3px; line-height:18px;}
+.news55a li a:hover{ color:#C00}
+
+
+
+.news55{overflow:hidden; width:305px;  padding-left:15px; border-top:1px solid #dcdcdc;}
+.news55 ul{ width:305px;}
+.news55 li{ width:140px; min-height:100px;_height:100px; float:left; padding-right:10px; display:inline;overflow: hidden; position:relative;}
+.news55 li img{  width:140px;border:1px solid #c6cacd;}
+.news55 li a:hover{ color:#C00}
+.news55 li p{ text-align:center; padding-top:3px; line-height:18px;}
+
+
+.news55 li span {
+    background-color: #000000;
+    opacity: 0.7;
+    text-indent: -999px;
+    z-index: 1;
+    position: absolute;
+    width: 140px;
+    height: 21px;
+    top: 79px;
+    line-height: 21px;
+    left: 0px;
+    filter: alpha(opacity=80);
+}
+
+.news55 li em {
+    position: absolute;
+    text-align: center;
+    width: 140px;
+    left: 1px;
+    top: 83px;
+    color: #FFF;
+    font-size: 12px;
+    z-index: 2;
+    font-style: normal;
+}
+
+
+.tj{clear:both; width:300px;border-top: 1px dashed #dcdcdc; padding-top:15px; margin-bottom:10px;}
+.tj li{ width:278px; height:22px;min-height:22px; display:inline; float:left; background: url(../img/ufo_46.gif) no-repeat 3px 4px;padding-left:12px}
+.tj li img{ width:140px; height:100px; border:1px solid #c6cacd;}
+.tj li p{ text-align:center; padding-top:3px; line-height:18px;}
+.tj li a{ color:#333}
+.tj li a:hover{ color:#c00;}
+
+
+.bo{ border-top:1px solid #dddddd; background:#f8f8f8; height:50px; padding-top:15px;}
+
+.bq {
+    margin: 0px auto 10px auto;
+    text-align: center;
+    width: 960px; color:#666
+}
+.bq a {
+    color: #666;
+}
+.bq a:hover {
+    color: #CC0000;
+}
+
+
+/*图片自动缩图*/
+.cc2 img{
+  max-width:600px;
+  myimg:expression(onload=function(){
+  this.style.width=(this.offsetWidth > 600)?"600px":"auto"}
+       );
+  }
+
+/*** 右侧边栏 ***/  
+.news2 {
+	/*height: 370px;
+	padding-left: 15px;*/
+	padding:0 0 15px 15px;
+	width: 305px;
+}
+.left_title {
+	height: 40px;
+}
+.left_l {
+	float: left;
+	font-size: 18px;
+	font-weight: normal;
+	height: 40px;
+}
+.left_r {
+	float: right;
+	height: 40px;
+	line-height: 20px;
+	padding-right: 7px;
+}
+  
+  
+  

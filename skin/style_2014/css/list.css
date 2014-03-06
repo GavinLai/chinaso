@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+/* CSS Document */
+.content{border-top:1px solid #ddd; padding-top:20px; padding-bottom:20px;background:#fff;}
+.left{ width:638px; border-right:1px solid #dddddd; height:1159px; float:left;}
+.left2{ height:auto;}
+.left_title{ height:40px;}
+.left_title2{ line-height:40px;margin-bottom:10px;}
+.left_l{ height:40px;font-size:18px; font-weight: normal; float:left;}
+.left_l2 {line-height:40px;background:url(../img/sf_07.jpg) no-repeat 12px 10px;padding-left:25px;}
+.left_r{ height:40px; float:right; padding-right:10px; line-height:20px;}
+.left_r a{ color:#333}
+.left_r a:hover{ color:#c00;}
+
+.left ul{ width:637px; display:block;}
+.left li{ height:31px; display:block; background:url(../img/ufo_46.gif) no-repeat 17px 5px; padding-left:28px; overflow:hidden;height:31px;height:31px:4px\9;*height:29px;_height:29px;}
+.left li a{ float:left; font-size:14px; display:block; color:#333; height:31px;}
+.left li a:hover{ color:#c00;}
+.left li span{height:27px; display:block; float:right; padding-right:20px; color:#999; padding-top:3px;}
+.left_xt{width:604px; height:1px;overflow:hidden; margin:0 auto; display:block; border-top:1px dotted #ccc; height:22px;}
+
+.Total  b{padding:2px 8px 2px 8px;text-decoration:none;color:#fff; font-size:12px;}
+
+.right{ width:320px; float:right; height:1139px; float:left;}
+.news{ width:305px; /*height:430px; */padding-left:15px; border-bottom:1px solid #dcdcdc; margin-bottom:15px;}
+.news dl{ height:76px; display:block;}
+.news dt{ width:102px; height:67px; display:block; float:left;}
+.news dt img{ width:90px; height:65px; border:1px solid #dddddd;}
+.news dd{ width:200px; height:73px; line-height:24px; padding-top:3px; display:block; float:left; margin:0px; font-size:12px;}
+.right_gg{ width:305px; padding-left:15px; padding-bottom:15px; border-bottom:1px solid #dcdcdc; margin-bottom:15px;}
+
+.news2{ width:305px; height:370px; padding-left:15px;}
+.news2 li{ width:142px; height:160px; display:inline; float:left; margin-right:10px;}
+.news2 li img{ width:140px; height:100px; border:1px solid #c6cacd;}
+.news2 li p{ text-align:center; padding-top:3px; line-height:18px;}
+
