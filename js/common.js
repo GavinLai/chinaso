@@ -1,3 +1,6 @@
+/*!
+ * Common js
+ */
 
 //xmlhttp和xmldom对象
 var GxXHTTP = null;
@@ -13,7 +16,7 @@ var GxWaitDisplay = "正在下载数据...";
 
 function __(id){
     return document.getElementById(id);
-}
+};
 
 //gcontainer 是保存下载完成的内容的容器
 //mShowError 是否提示错误信息
@@ -22,7 +25,6 @@ function __(id){
 //mErrDisplay 发生错误时显示的信息
 //mWaitDisplay 等待时提示信息
 //默认调用 Gx_Ajax('divid',false,false,'','','')
-
 function Gx_Ajax(gcontainer,mShowError,mShowWait,mErrCon,mErrDisplay,mWaitDisplay){
 
     GxContainer = gcontainer;
@@ -216,7 +218,7 @@ this.Send_Post = function(purl){
 };
 
 
-} // End Class GxAjax
+}; // End Class GxAjax
 
 //初始化xmldom
 function InitXDom(){
@@ -235,8 +237,6 @@ function InitXDom(){
     GxXDOM = obj;
 };
 
-
-
 //读写cookie函数
 function GetCookie(c_name){
     if (document.cookie.length > 0){
@@ -251,13 +251,12 @@ function GetCookie(c_name){
         }
     }
     return null;
-}
-
+};
 function SetCookie(c_name,value,expiredays){
     var exdate = new Date();
     exdate.setDate(exdate.getDate() + expiredays);
     document.cookie = c_name + "=" +escape(value) + ((expiredays == null) ? "" : ";expires=" + exdate.toGMTString()); //使设置的有效时间正确。增加toGMTString()
-}
+};
 function URLdecode(str) {
         var ret = "";
         for(var i=0;i<str.length;i++) {
@@ -278,7 +277,7 @@ function URLdecode(str) {
                 }
         }
         return ret;
-}
+};
 function getOffsetLeft(elm){
 	var mOffsetLeft=elm.offsetLeft;
 	var mOffsetParent = elm.offsetParent; 
@@ -287,9 +286,15 @@ function getOffsetLeft(elm){
 		mOffsetParent = mOffsetParent.offsetParent;
 	}
 	return mOffsetLeft;
-}
+};
 function getLeft(obj){
     var offset=obj.offsetLeft;
     if(obj.offsetParent!=null)  offset +=getLeft(obj.offsetParent);
     return offset;
 };
+
+function doZoom(size){
+	document.getElementById('zoom').style.fontSize=size+'px';
+};
+
+

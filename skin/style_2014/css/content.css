@@ -11,8 +11,9 @@
 .sj_right a:hover{ color:#c00;}
 
 .c{font-size:14px; color:#000; line-height:24px; color:#333; width:610px; padding-bottom:10px; padding-left:5px; padding-top:10px;}
-.c p{ padding-bottom:15px;} 
-#zoom img{clear:both}
+.c p{ padding-bottom:15px;}
+#zoom {max-width:100%;}
+#zoom img{clear:both;max-width:100%;}
 .ad04{float:right; margin: 18px 0 15px 15px;clear: right;height:280px;}
 #zhan{
 float: right;           
